@@ -198,7 +198,7 @@
           <a href="http://www.facebook.com/juannavasjn" class="facebook" target="_blank"><i class="fa fa-facebook"></i></a>
           <a href="http://www.instagram.com/juannavasjn" class="instagram" target="_blank"><i class="fa fa-instagram"></i></a>
           <a href="https://www.linkedin.com/in/juannavasjn/" class="linkedin" target="_blank"><i class="fa fa-linkedin-square"></i></a>
-          <a href="https://github.com/JuanNavasJN" class="github" target="_blank"><i class="fa fa-github"></i></a>
+          <a href="https://github.com/JuanNavasJN" class="linkedin" target="_blank"><i class="fa fa-github"></i></a>
 
         </div>
       </section>
