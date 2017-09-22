@@ -37,7 +37,7 @@
 
 		if(!$errores){
 			$enviarA = 'navascruzf@gmail.com';
-			$asunto = 'Correo enviado desde juannavas.000webhostapp.com';
+			$asunto = 'Correo enviado desde juannavas.com.ve';
 			$mensajePreparado = "De: $nombre \n";
 			$mensajePreparado .= "Correo: $correo \n";
 			$mensajePreparado .= "Mensaje: " . $mensaje; 
