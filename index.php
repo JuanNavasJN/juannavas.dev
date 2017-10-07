@@ -36,13 +36,14 @@
 		}
 
 		if(!$errores){
-			$enviarA = 'navascruzf@gmail.com';
-			$asunto = 'Correo enviado desde juannavas.com.ve';
-			$mensajePreparado = "De: $nombre \n";
-			$mensajePreparado .= "Correo: $correo \n";
-			$mensajePreparado .= "Mensaje: " . $mensaje; 
+			// $enviarA = 'navascruzf@gmail.com';
+			// $asunto = 'Correo enviado desde juannavas.com.ve';
+			// $mensajePreparado = "De: $nombre \n";
+			// $mensajePreparado .= "Correo: $correo \n";
+			// $mensajePreparado .= "Mensaje: " . $mensaje; 
 
-			mail($enviarA, $asunto, $mensajePreparado);
+			// mail($enviarA, $asunto, $mensajePreparado);
+
 			$enviado = true;
 		}
 
