@@ -1,0 +1,6 @@
+{
+	"autoload": {},
+	"require": {
+    "sendgrid/sendgrid": "~6.0"
+  	}
+}
