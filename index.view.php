@@ -6,7 +6,7 @@
     <meta name="description" content="Juan Navas - Desarrollador web, fagotista, estudiante. En esta página muestro los proyectos que he desarrollado   utilizando html css javascript php jquery laravel">
     <meta name="author" content="Juan Navas">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0" >
-    <title>Portafolio de Juan Navas</title>
+    <title>Juan Navas</title>
     <link rel="shorcut icon" type="image/x-icon" href="img/favicon.ico">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
@@ -64,7 +64,7 @@
           </div>
           <div class="texto">
             <h3 class="titulo">Acerca de</h3>
-            <p>Soy un joven desarrollador web, estudiante de computación en la Universidad Central de Venezuela, también soy músico (fagotista) en la Orquesta Sinfónica de Caracas perteneciente a "El Sistema". En esta página muestro los proyectos que he desarrollado.</p>
+            <p>Soy un joven desarrollador web, estudiante de computación en la Universidad Central de Venezuela, también soy músico (fagotista) en la Orquesta Sinfónica Juan José Landaeta perteneciente a "El Sistema". En esta página muestro los proyectos que he desarrollado.</p>
           </div>
         </div>
       </section>
