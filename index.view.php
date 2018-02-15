@@ -204,7 +204,7 @@
       </section>
 
       <section class="copyright">
-        <div class="contenedor"><h3><i class="fa fa-copyright"></i> Juan Navas 2017</h3></div>
+        <div class="contenedor"><h3><i class="fa fa-copyright"></i> Juan Navas 2018</h3></div>
       </section>
 
     </footer>
