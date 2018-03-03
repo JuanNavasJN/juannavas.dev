@@ -160,17 +160,17 @@
           <h3 class="titulo">Contacto</h3>
           <!-- <form id="gform" method="post" action="" class="formulario">
 
-            <input type="text" placeholder="Nombre" name="nombre" value="<?php if(!$enviado && isset($nombre)) echo $nombre; ?>" required>
+            <input type="text" placeholder="Nombre" name="nombre" value="<?php //if(!$enviado && isset($nombre)) echo $nombre; ?>" required>
 
-            <input type="email" placeholder="Correo" name="correo" value="<?php if(!$enviado && isset($correo)) echo $correo; ?>" required>
+            <input type="email" placeholder="Correo" name="correo" value="<?php //if(!$enviado && isset($correo)) echo $correo; ?>" required>
 
-            <textarea name="mensaje" placeholder="Mensaje" required><?php if(!$enviado && isset($mensaje)) echo $mensaje; ?></textarea>
+            <textarea name="mensaje" placeholder="Mensaje" required><?php //if(!$enviado && isset($mensaje)) echo $mensaje; ?></textarea>
 
-            <?php if(empty($errores) && $enviado): ?>
+            <?php //if(empty($errores) && $enviado): ?>
               <script language="javascript">alert("Su correo fue enviado con exito! Muchas gracias por contactarme.")</script>
-            <?php endif ?> 
+           // <?php //endif ?> 
 
-           <!-- <div class="mensajes">
+           <div class="mensajes">
              <?php // if(!empty($errores)): ?>
               <div class="alert error">
                  <?php //echo $errores; ?>
@@ -180,7 +180,7 @@
                 <p>Enviado correctamente</p>
               </div>
             <?php// endif ?>
-           </div> -->
+			 </div> 
            
            
 
