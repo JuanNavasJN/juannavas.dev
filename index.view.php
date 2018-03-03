@@ -158,7 +158,7 @@
       <section class="contacto" id="contacto">
         <div class="contenedor">
           <h3 class="titulo">Contacto</h3>
-          <form id="gform" method="post" action="" class="formulario">
+          <!-- <form id="gform" method="post" action="" class="formulario">
 
             <input type="text" placeholder="Nombre" name="nombre" value="<?php if(!$enviado && isset($nombre)) echo $nombre; ?>" required>
 
@@ -186,7 +186,7 @@
 
             <input type="submit" class="boton" name="submit" value="Enviar">
 
-          </form>
+          </form> -->
 
       	  </div>
         </div>
