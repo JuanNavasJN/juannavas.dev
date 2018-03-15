@@ -1,3 +1,3 @@
 # portafoliojn
 
-Aquí se encuentra el código de mi página web: http://juannavas.com.ve/
+Aquí se encuentra el código de mi página web: https://juannavas.com.ve/
