@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115753994-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-115753994-1');
+    </script>
+
     <meta charset="utf-8">
     <meta name="keywords" content="diseno web, html, css, javascript">
     <meta name="description" content="Juan Navas - Desarrollador web, fagotista, estudiante. En esta página muestro los proyectos que he desarrollado   utilizando html css javascript php jquery laravel">
@@ -15,7 +25,7 @@
     <style>
       .mensajes {
         width: 100%;
-        
+
       }
       .alert {
         width: 40%;
@@ -138,7 +148,7 @@
               </div>
             </a>
             </div>
- 
+
             <div class="trabajo"> <a href="f1.html">
               <div class="thumb">
                 <img src="" alt="" title="">
@@ -168,7 +178,7 @@
 
             <?php //if(empty($errores) && $enviado): ?>
               <script language="javascript">alert("Su correo fue enviado con exito! Muchas gracias por contactarme.")</script>
-           // <?php //endif ?> 
+           // <?php //endif ?>
 
            <div class="mensajes">
              <?php // if(!empty($errores)): ?>
@@ -180,9 +190,9 @@
                 <p>Enviado correctamente</p>
               </div>
             <?php// endif ?>
-			 </div> 
-           
-           
+			 </div>
+
+
 
             <input type="submit" class="boton" name="submit" value="Enviar">
 
