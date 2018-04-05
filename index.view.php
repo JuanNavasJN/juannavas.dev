@@ -11,16 +11,6 @@
       gtag('config', 'UA-115753994-1');
     </script>
 
-    <!-- Google Adsense -->
-
-    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <script>
-      (adsbygoogle = window.adsbygoogle || []).push({
-        google_ad_client: "ca-pub-9226793972443667",
-        enable_page_level_ads: true
-      });
-    </script>
-
     <meta charset="utf-8">
     <meta name="keywords" content="diseno web, html, css, javascript">
     <meta name="description" content="Juan Navas - Desarrollador web, fagotista, estudiante. En esta página muestro los proyectos que he desarrollado   utilizando html css javascript php jquery laravel">
