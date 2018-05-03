@@ -205,12 +205,12 @@
 
       <section class="redes-sociales">
         <div class="contenedor">
-          <a href="http://www.twitter.com/juannavasjn" class="twitter" target="_blank"><i class="fas fa-twitter"></i></a>
-          <a href="http://www.facebook.com/juannavasjn" class="facebook" target="_blank"><i class="fas fa-facebook"></i></a>
-          <a href="http://www.instagram.com/juannavasjn" class="instagram" target="_blank"><i class="fas fa-instagram"></i></a>
-          <a href="https://www.linkedin.com/in/juannavasjn/" class="linkedin" target="_blank"><i class="fas fa-linkedin-square"></i></a>
-          <a href="mailto:navascruzf@gmail.com" class="twitter"><i class="fas fa-envelope"></i></a>
-          <a href="https://github.com/JuanNavasJN" class="linkedin" target="_blank"><i class="fas fa-github"></i></a>
+          <a href="http://www.twitter.com/juannavasjn" class="twitter" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="http://www.facebook.com/juannavasjn" class="facebook" target="_blank"><i class="fab fa-facebook"></i></a>
+          <a href="http://www.instagram.com/juannavasjn" class="instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/juannavasjn/" class="linkedin" target="_blank"><i class="fab fa-linkedin-square"></i></a>
+          <a href="mailto:navascruzf@gmail.com" class="twitter"><i class="fab fa-envelope"></i></a>
+          <a href="https://github.com/JuanNavasJN" class="linkedin" target="_blank"><i class="fab fa-github"></i></a>
           
 
         </div>
