@@ -20,7 +20,8 @@
     <link rel="shorcut icon" type="image/x-icon" href="img/favicon.ico">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.11/css/all.css" integrity="sha384-p2jx59pefphTFIpeqCcISO9MdVfIm4pNnsL08A6v5vaQc4owkQqxMV8kg4Yvhaw/" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="css/font-awesome.min.css"> -->
     <link rel="stylesheet" href="css/estilos.css">
     <style>
       .mensajes {
@@ -204,12 +205,12 @@
 
       <section class="redes-sociales">
         <div class="contenedor">
-          <a href="http://www.twitter.com/juannavasjn" class="twitter" target="_blank"><i class="fa fa-twitter"></i></a>
-          <a href="http://www.facebook.com/juannavasjn" class="facebook" target="_blank"><i class="fa fa-facebook"></i></a>
-          <a href="http://www.instagram.com/juannavasjn" class="instagram" target="_blank"><i class="fa fa-instagram"></i></a>
-          <a href="https://www.linkedin.com/in/juannavasjn/" class="linkedin" target="_blank"><i class="fa fa-linkedin-square"></i></a>
-          <a href="mailto:navascruzf@gmail.com" class="twitter"><i class="far fa-envelope"></i></a>
-          <a href="https://github.com/JuanNavasJN" class="linkedin" target="_blank"><i class="fa fa-github"></i></a>
+          <a href="http://www.twitter.com/juannavasjn" class="twitter" target="_blank"><i class="fas fa-twitter"></i></a>
+          <a href="http://www.facebook.com/juannavasjn" class="facebook" target="_blank"><i class="fas fa-facebook"></i></a>
+          <a href="http://www.instagram.com/juannavasjn" class="instagram" target="_blank"><i class="fas fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/juannavasjn/" class="linkedin" target="_blank"><i class="fas fa-linkedin-square"></i></a>
+          <a href="mailto:navascruzf@gmail.com" class="twitter"><i class="fas fa-envelope"></i></a>
+          <a href="https://github.com/JuanNavasJN" class="linkedin" target="_blank"><i class="fas fa-github"></i></a>
           
 
         </div>
