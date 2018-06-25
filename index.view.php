@@ -155,7 +155,7 @@
                 <img src="img/trabajos/7.png" alt="Segundo proyecto con Laravel" title="Segundo proyecto con Laravel">
               </div>
               <div class="descripcion">
-                <p class="nombre">CRUD</p>
+                <p class="nombre">CRUD - Login</p>
                 <p class="categoria">VueJS - Laravel - MySQL</p>
               </div>
             </a>
