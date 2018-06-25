@@ -150,13 +150,13 @@
             </a>
             </div>
 
-            <div class="trabajo"> <a href="f1.html">
+            <div class="trabajo"> <a href="https://crudlaravelvuejs.herokuapp.com/">
               <div class="thumb">
-                <img src="" alt="" title="">
+                <img src="img/trabajos/7.png" alt="Segundo proyecto con Laravel" title="Segundo proyecto con Laravel">
               </div>
               <div class="descripcion">
-                <p class="nombre"></p>
-                <p class="categoria"></p>
+                <p class="nombre">CRUD</p>
+                <p class="categoria">VueJS - Laravel - MySQL</p>
               </div>
             </a>
             </div>
