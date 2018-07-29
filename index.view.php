@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
-        <!-- Default Statcounter code for My Personal Website http://juannavas.com.ve
-    -->
-    <script type="text/javascript">
-    var sc_project=11774071; 
-    var sc_invisible=1; 
-    var sc_security="50975335"; 
-    </script>
-    <script type="text/javascript"
-    src="https://www.statcounter.com/counter/counter.js" async></script>
-    <noscript><div class="statcounter"><a title="Web Analytics"
-    href="http://statcounter.com/" target="_blank"><img class="statcounter"
-    src="//c.statcounter.com/11774071/0/50975335/1/" alt="Web
-    Analytics"></a></div></noscript>
-    <!-- End of Statcounter Code -->
+        <!-- Default Statcounter code for My Personal Website
+      https://juannavas.com.ve -->
+      <script type="text/javascript">
+      var sc_project=11774071; 
+      var sc_invisible=1; 
+      var sc_security="50975335"; 
+      </script>
+      <script type="text/javascript"
+      src="https://www.statcounter.com/counter/counter.js"
+      async></script>
+      <noscript><div class="statcounter"><a title="Web Analytics"
+      href="http://statcounter.com/" target="_blank"><img
+      class="statcounter"
+      src="//c.statcounter.com/11774071/0/50975335/1/" alt="Web
+      Analytics"></a></div></noscript>
+      <!-- End of Statcounter Code -->
     
         <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115753994-1"></script>
