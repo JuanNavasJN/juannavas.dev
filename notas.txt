@@ -1,5 +1,0 @@
-1- Layout basic
-2- layout con flexbox
-3- portafolio
-4- restaurant
-5- formulario
