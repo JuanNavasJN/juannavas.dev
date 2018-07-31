@@ -1,0 +1,8 @@
+.inicio{
+    background: url('../../assets/frankfurt.jpg')  rgb(69, 56, 184);
+    background-position: center;
+    background-size: cover;
+    height: 25vh;
+    max-height: 200px;
+
+}
