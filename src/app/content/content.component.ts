@@ -7,6 +7,24 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContentComponent implements OnInit {
 
+  projects: any[] = [
+    {
+      "name": "Douglas  Pace"
+    },
+    {
+      "name": "Mcleod  Mueller"
+    },
+    {
+      "name": "Day  Meyers"
+    },
+    {
+      "name": "Aguirre  Ellis"
+    },
+    {
+      "name": "Cook  Tyson"
+    }
+  ];
+
   constructor() { }
 
   ngOnInit() {
