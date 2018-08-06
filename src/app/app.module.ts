@@ -1,38 +1,30 @@
-import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations'; // this is needed!
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { RouterModule } from '@angular/router';
+import { AppRoutingModule } from './app.routing';
+import { ComponentsModule } from './components/components.module';
+import { ExamplesModule } from './examples/examples.module';
 
 import { AppComponent } from './app.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MyNavComponent } from './my-nav/my-nav.component';
-import { LayoutModule } from '@angular/cdk/layout';
-import { ContentComponent } from './content/content.component';
-import { MatToolbarModule, 
-         MatButtonModule, 
-         MatSidenavModule, 
-         MatIconModule, 
-         MatListModule,
-         MatCardModule
-} from '@angular/material';
-
+import { NavbarComponent } from './shared/navbar/navbar.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    MyNavComponent,
-    ContentComponent
-  ],
-  imports: [
-    BrowserModule,
-    BrowserAnimationsModule,
-    LayoutModule,
-    MatToolbarModule,
-    MatButtonModule,
-    MatSidenavModule,
-    MatIconModule,
-    MatListModule,
-    MatCardModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+    declarations: [
+        AppComponent,
+        NavbarComponent
+    ],
+    imports: [
+        BrowserAnimationsModule,
+        NgbModule.forRoot(),
+        FormsModule,
+        RouterModule,
+        AppRoutingModule,
+        ComponentsModule,
+        ExamplesModule
+    ],
+    providers: [],
+    bootstrap: [AppComponent]
 })
 export class AppModule { }
