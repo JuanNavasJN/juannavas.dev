@@ -18,9 +18,9 @@
                 <a href="assets/pdf/V1-CV_ES.pdf" target="_blank" class="btn btn-primary btn-round btn-lg">Descarga mi CV</a>
             </div>
             <h3 class="title">Sobre mí</h3>
-            <h5 class="description">An artist of considerable range, Ryan — the name taken by Melbourne-raised, Brooklyn-based Nick Murphy — writes, performs and records all of his own music, giving it a warm, intimate feel with a solid groove structure. An artist of considerable
-                range.
-            </h5>
+            <h4 class="description">
+                Soy desarrollador web con conocimientos en JavaScript, HTML, CSS, PHP, MySQL, Angular, VueJS, Laravel, NodeJS... También soy estudiante de computación en la Universidad Central de Venezuela
+            </h4>
             <div class="row">
                 <div class="col-md-12">
                     <h4 class="title text-center">Mi Portafolio</h4>
@@ -35,10 +35,10 @@
                                     <div class="col-md-10 ml-auto mr-auto">
                                         <div class="row collections">
                                             <div class="col-md-4">
-                                                <a href="#" target="_blank">
+                                                <!-- <a href="#" target="_blank">
                                                     <p class="category">BLANK</p>
                                                     <img src="assets/img/trabajos/7.png" alt="" class="img-raised">
-                                                </a>
+                                                </a> -->
                                                 <a href="https://crudlaravelvuejs.herokuapp.com/" target="_blank">
                                                     <p class="category">CRUD con login</p>
                                                     <img src="assets/img/trabajos/6.png" alt="" class="img-raised">
@@ -86,38 +86,8 @@
             </div>
         </div>
 
-        <div class="section-contact-us text-center">
-            <div class="container">
-                <h2 class="title">Contáctame</h2>
-                <!-- <p class="description">Your project is very important to us.</p> -->
-                <div class="row">
-                    <div class="col-lg-6 text-center col-md-8 ml-auto mr-auto">
-                        <div class="input-group input-lg" [ngClass]="{'input-group-focus':focus===true}">
-                            <div class="input-group-prepend">
-                                <span class="input-group-text">
-                              <i class="now-ui-icons users_circle-08"></i>
-                          </span>
-                            </div>
-                            <input type="text" class="form-control" placeholder="Nombre" (focus)="focus=true" (blur)="focus=false">
-                        </div>
-                        <div class="input-group input-lg" [ngClass]="{'input-group-focus':focus1===true}">
-                            <div class="input-group-prepend">
-                                <span class="input-group-text">
-                                <i class="now-ui-icons ui-1_email-85"></i>
-                          </span>
-                            </div>
-                            <input type="text" class="form-control" placeholder="Correo" (focus)="focus1=true" (blur)="focus1=false">
-                        </div>
-                        <div class="textarea-container">
-                            <textarea class="form-control" name="name" rows="4" cols="80" placeholder="Mensaje..."></textarea>
-                        </div>
-                        <div class="send-button">
-                            <a href="#pablo" class="btn btn-primary btn-round btn-block btn-lg">Enviar Mensaje</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <app-contactme></app-contactme>
+
     </div>
 
 
@@ -127,8 +97,7 @@
             <div class="copyright">
                 &copy; {{data | date: 'yyyy'}}, Designed by
                 <a href="https://www.invisionapp.com" target="_blank">Invision</a>. Coded by
-                <a href="https://www.creative-tim.com" target="_blank">Creative Tim</a> and
-                <a href="#">Juan Navas</a>.
+                <a href="https://www.creative-tim.com" target="_blank">Creative Tim. </a>Modified by <a href="#">Juan Navas</a>.
             </div>
         </div>
     </footer>

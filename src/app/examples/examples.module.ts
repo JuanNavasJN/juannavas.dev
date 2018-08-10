@@ -6,6 +6,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { JWBootstrapSwitchModule } from 'jw-bootstrap-switch-ng2';
 import { AgmCoreModule } from '@agm/core';
 
+import { ContactmeComponent } from './contactme/contactme.component';
 import { ProfileComponent } from './profile/profile.component';
 import { ExamplesComponent } from './examples.component';
 
@@ -22,7 +23,8 @@ import { ExamplesComponent } from './examples.component';
     ],
     declarations: [
         ExamplesComponent,
-        ProfileComponent
+        ProfileComponent,
+        ContactmeComponent
     ]
 })
 export class ExamplesModule { }
