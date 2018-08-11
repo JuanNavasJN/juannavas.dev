@@ -5,6 +5,5 @@
 
 export const environment = {
   production: false,
-  url: 'http://portafoliojn.herokuapp.com/sendmail',
-  urlDev: 'http://localhost:8080/sendemail'
+  url: 'http://localhost:8080/sendemail'
 };

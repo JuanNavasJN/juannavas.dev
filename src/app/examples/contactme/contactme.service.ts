@@ -1,8 +1,6 @@
 import { Injectable } from '@angular/core';
-import { Http, Response } from '@angular/http';
+import { Http } from '@angular/http';
 import { environment } from '../../../environments/environment';
-import 'rxjs/Rx';
-
 
 @Injectable()
 export class ContactmeService {
@@ -11,7 +9,7 @@ export class ContactmeService {
     
   sendEmail(message: any) {
 
-    return this.http.post(environment.urlDev, message,  {})
+    return this.http.post(environment.url, message,  {})
       
   }
 }
