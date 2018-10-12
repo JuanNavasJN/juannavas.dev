@@ -1,0 +1,104 @@
+<div class="wrapper">
+    <div class="page-header page-header-small" filter-color="primary">
+        <div class="page-header-image rellax-header" data-rellax-speed="-8" style="background-image: url('assets/img/frankfurt.jpg') ;">
+        </div>
+        <div class="container">
+            <div class="content-center">
+                <div class="photo-container">
+                    <img src="assets/img/JuanNavas.png" alt="">
+                </div>
+                <h3 class="title">Juan Navas</h3>
+                <p class="category">Programador</p>
+            </div>
+        </div>
+    </div>
+    <div class="section">
+        <div class="container">
+            <div class="button-container">
+                <a href="assets/pdf/CV_ES.pdf" target="_blank" class="btn btn-primary btn-round btn-lg">Descarga mi CV</a>
+            </div>
+            <h3 class="title">Sobre mí</h3>
+            <h4 class="description">
+                Soy desarrollador web con conocimientos en JavaScript, HTML, CSS, PHP, MySQL, Angular, VueJS, Laravel, NodeJS, ReactJS... También soy estudiante de computación en la Universidad Central de Venezuela
+            </h4>
+            <div class="row">
+                <div class="col-md-12">
+                    <h4 class="title text-center">Mi Portafolio</h4>
+                    <ngb-tabset [justify]="'center'" type="pills" class="nav nav-pills nav-pills-primary  nav-pills-just-icons justify-content-center tab-space">
+
+                        <ngb-tab>
+                            <ng-template ngbTabTitle>
+                                <i class="now-ui-icons education_atom"></i>
+                            </ng-template>
+                            <ng-template ngbTabContent>
+                                <div class="row">
+                                    <div class="col-md-10 ml-auto mr-auto">
+                                        <div class="row collections">
+                                            <div class="col-md-4">
+                                                <!-- <a href="#" target="_blank">
+                                                    <p class="category">BLANK</p>
+                                                    <img src="assets/img/trabajos/7.png" alt="" class="img-raised">
+                                                </a> -->
+                                                <a href="https://crudlaravelvuejs.herokuapp.com/" target="_blank">
+                                                    <p class="category">CRUD con login</p>
+                                                    <img src="assets/img/trabajos/6.png" alt="" class="img-raised">
+                                                </a>
+                                                <a href="assets/html/index3.html" target="_blank">
+                                                    <p class="category">Portafolio</p>
+                                                    <img src="assets/img/trabajos/3.png" alt="" class="img-raised">
+                                                </a>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <a href="https://bassoon.com.ve" target="_blank">
+                                                    <p class="category">Bassoon Library</p>
+                                                    <img src="assets/img/trabajos/8.png" alt="" class="img-raised">
+                                                </a>
+                                                <a href="https://obscure-fortress-11609.herokuapp.com/" target="_blank">
+                                                    <p class="category">Agencia</p>
+                                                    <img src="assets/img/trabajos/5.png" alt="" class="img-raised">
+                                                </a>
+                                                <a href="assets/html/index2.html" target="_blank">
+                                                    <p class="category">Layout con flexbox</p>
+                                                    <img src="assets/img/trabajos/2.png" class="img-raised">
+                                                </a>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <a href="https://juannavasjn.github.io/platzimusic-vuejs/index.html" target="_blank">
+                                                    <p class="category">PlatziMusic - VueJS</p>
+                                                    <img src="assets/img/trabajos/7.png" alt="" class="img-raised">
+                                                </a>
+                                                <a href="assets/html/index4.html" target="_blank">
+                                                    <p class="category">Café Restaurante</p>
+                                                    <img src="assets/img/trabajos/4.png" alt="" class="img-raised">
+                                                </a>
+                                                <a href="assets/html/index1.html" target="_blank">
+                                                    <p class="category">Layout Básico</p>
+                                                    <img src="assets/img/trabajos/1.png" class="img-raised">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </ng-template>
+                        </ngb-tab>
+                    </ngb-tabset>
+                </div>
+            </div>
+        </div>
+
+        <app-contactme></app-contactme>
+
+    </div>
+
+
+
+    <footer class="footer footer-default">
+        <div class="container">
+            <div class="copyright">
+                &copy; {{data | date: 'yyyy'}}, Designed by
+                <a href="https://www.invisionapp.com" target="_blank">Invision</a>. Coded by
+                <a href="https://www.creative-tim.com" target="_blank">Creative Tim. </a>Modified by <a href="#">Juan Navas</a>.
+            </div>
+        </div>
+    </footer>
+</div>

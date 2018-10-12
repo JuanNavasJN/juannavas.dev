@@ -1,3 +1,3 @@
-# portafoliojn
+## Juan Navas Portfolio's
 
-Aquí se encuentra el código de mi página web: https://juannavas.com.ve/
+view on: https://juannavas.com.ve
