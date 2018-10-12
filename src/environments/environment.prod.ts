@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  url: 'https://portafoliojn.herokuapp.com/sendemail',
+  url: 'https://test.juannavas.com.ve/sendemail',
 };
