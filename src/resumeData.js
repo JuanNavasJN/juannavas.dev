@@ -29,46 +29,56 @@ let resumeData = {
     website: "https://rbhatia46.github.io",
     education: [
         {
-            UniversityName: "The LNM Insitute of Information Technology",
-            specialization: "Some specialization",
-            MonthOfPassing: "Aug",
-            YearOfPassing: "2020",
-            Achievements: "Some Achievements"
-        },
-        {
-            UniversityName: "Some University",
-            specialization: "Some specialization",
-            MonthOfPassing: "Jan",
-            YearOfPassing: "2018",
-            Achievements: "Some Achievements"
+            UniversityName: "Universidad Central de Venezuela",
+            specialization: "Science Computer",
+            MonthOfPassing: "Jul",
+            YearOfPassing: "2021"
         }
     ],
     work: [
         {
-            CompanyName: "Some Company",
-            specialization: "Some specialization",
-            MonthOfLeaving: "Jan",
-            YearOfLeaving: "2018",
-            Achievements: "Some Achievements"
-        },
-        {
-            CompanyName: "Some Company",
-            specialization: "Some specialization",
-            MonthOfLeaving: "Jan",
-            YearOfLeaving: "2018",
-            Achievements: "Some Achievements"
+            CompanyName: "EYSS",
+            CompanyLink: "https://eyss.io",
+            specialization: "Full Stack Web Developer",
+            MonthOfLeaving: "",
+            YearOfLeaving: "2020",
+            Achievements:
+                "React.js, Laravel, Node.js, Docker, MySQL, MongoDB . . ."
         }
     ],
     skillsDescription: "Your skills here",
     skills: [
         {
-            skillname: "HTML5"
+            skillname: "HTML5",
+            skillsize: "65%"
         },
         {
-            skillname: "CSS"
+            skillname: "CSS",
+            skillsize: "45%"
         },
         {
-            skillname: "Reactjs"
+            skillname: "JS",
+            skillsize: "50%"
+        },
+        {
+            skillname: "React.js",
+            skillsize: "55%"
+        },
+        {
+            skillname: "Node.js",
+            skillsize: "35%"
+        },
+        {
+            skillname: "Laravel",
+            skillsize: "45%"
+        },
+        {
+            skillname: "Docker",
+            skillsize: "45%"
+        },
+        {
+            skillname: "Git",
+            skillsize: "65%"
         }
     ],
     portfolio: [

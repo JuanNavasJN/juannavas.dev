@@ -28,11 +28,11 @@ export default class Header extends Component {
                                     Home
                                 </a>
                             </li>
-                            <li>
+                            {/* <li>
                                 <a className="smoothscroll" href="#about">
                                     About
                                 </a>
-                            </li>
+                            </li> */}
                             <li>
                                 <a className="smoothscroll" href="#resume">
                                     Resume
@@ -43,14 +43,14 @@ export default class Header extends Component {
                                     Works
                                 </a>
                             </li>
-                            <li>
+                            {/* <li>
                                 <a
                                     className="smoothscroll"
                                     href="#testimonials"
                                 >
                                     Testimonials
                                 </a>
-                            </li>
+                            </li> */}
                             <li>
                                 <a className="smoothscroll" href="#contact">
                                     Contact
@@ -73,7 +73,7 @@ export default class Header extends Component {
                                 {resumeData.roleDescription}
                             </h3>
                             <hr />
-                            <ul className="social">
+                            {/* <ul className="social">
                                 {resumeData.socialLinks &&
                                     resumeData.socialLinks.map(item => {
                                         return (
@@ -91,7 +91,7 @@ export default class Header extends Component {
                                             </li>
                                         );
                                     })}
-                            </ul>
+                            </ul> */}
                         </div>
                     </div>
 
