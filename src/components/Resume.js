@@ -3,7 +3,7 @@ export default class Resume extends Component {
     render() {
         let resumeData = this.props.resumeData;
         return (
-            <section id="resume">
+            <section id="resume" name="resume">
                 <div className="row education">
                     <div className="three columns header-col">
                         <h1>
@@ -49,6 +49,7 @@ export default class Resume extends Component {
                                             <a
                                                 href={item.CompanyLink}
                                                 target="_blank"
+                                                rel="noopener noreferrer"
                                             >
                                                 <h3>{item.CompanyName}</h3>
                                             </a>
@@ -76,7 +77,7 @@ export default class Resume extends Component {
                     </div>
 
                     <div className="nine columns main-col">
-                        <p>{resumeData.skillsDescription}</p>
+                        {/* <p>{resumeData.skillsDescription}</p> */}
 
                         <div className="bars">
                             <ul className="skills">

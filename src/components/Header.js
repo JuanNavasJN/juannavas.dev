@@ -1,13 +1,34 @@
 import React, { Component } from "react";
 import Particles from "react-particles-js";
+import { scroller } from "react-scroll";
 
 export default class Header extends Component {
+    componentDidMount = _ => {
+        window.addEventListener("scroll", _ => {
+            let nav = document.querySelector("#nav-wrap");
+            if (window.pageYOffset > 650) {
+                nav.classList.add("opaque");
+            } else {
+                nav.classList.remove("opaque");
+            }
+        });
+    };
+
+    handleClick = (e, name) => {
+        e.preventDefault();
+        scroller.scrollTo(name, {
+            duration: 500,
+            smooth: true
+            // offset: 150 // Scrolls to element + 50 pixels down the page
+        });
+    };
+
     render() {
         let resumeData = this.props.resumeData;
         return (
             <React.Fragment>
-                <header id="">
-                    <nav id="nav-wrap">
+                <header name="home" id="home">
+                    <nav id="nav-wrap" className="">
                         <a
                             className="mobile-btn"
                             href="#nav-wrap"
@@ -17,14 +38,18 @@ export default class Header extends Component {
                         </a>
                         <a
                             className="mobile-btn"
-                            href="#"
+                            href="/#"
                             title="Hide navigation"
                         >
                             Hide navigation
                         </a>
                         <ul id="nav" className="nav">
-                            <li className="current">
-                                <a className="smoothscroll" href="#home">
+                            <li>
+                                <a
+                                    className=""
+                                    href="/"
+                                    onClick={e => this.handleClick(e, "home")}
+                                >
                                     Home
                                 </a>
                             </li>
@@ -34,12 +59,22 @@ export default class Header extends Component {
                                 </a>
                             </li> */}
                             <li>
-                                <a className="smoothscroll" href="#resume">
+                                <a
+                                    className=""
+                                    href="/#resume"
+                                    onClick={e => this.handleClick(e, "resume")}
+                                >
                                     Resume
                                 </a>
                             </li>
                             <li>
-                                <a className="smoothscroll" href="#portfolio">
+                                <a
+                                    className=""
+                                    href="/#portfolio"
+                                    onClick={e =>
+                                        this.handleClick(e, "portfolio")
+                                    }
+                                >
                                     Works
                                 </a>
                             </li>
@@ -52,7 +87,13 @@ export default class Header extends Component {
                                 </a>
                             </li> */}
                             <li>
-                                <a className="smoothscroll" href="#contact">
+                                <a
+                                    className=""
+                                    href="/#contact"
+                                    onClick={e =>
+                                        this.handleClick(e, "contact")
+                                    }
+                                >
                                     Contact
                                 </a>
                             </li>
@@ -61,6 +102,13 @@ export default class Header extends Component {
 
                     <div className="row banner">
                         <div className="banner-text">
+                            <div className="profile-pic-container">
+                                <img
+                                    className="profile-pic"
+                                    src="images/jn.jpg"
+                                    alt=""
+                                />
+                            </div>
                             <h1 className="responsive-headline">
                                 I am {resumeData.name}.
                             </h1>
@@ -124,7 +172,11 @@ export default class Header extends Component {
                     />
 
                     <p className="scrolldown">
-                        <a className="smoothscroll" href="#about">
+                        <a
+                            className=""
+                            href="/#about"
+                            onClick={e => this.handleClick(e, "resume")}
+                        >
                             <i className="icon-down-circle"></i>
                         </a>
                     </p>
