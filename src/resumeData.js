@@ -2,7 +2,8 @@ let resumeData = {
     imagebaseurl: "https://juannavas.xyz",
     name: "Juan Navas",
     role: "",
-    linkedinId: "Your LinkedIn Id",
+    linkedinId: "juannavasjn",
+    email: "yo@juannavas.xyz",
     skypeid: "Your skypeid",
     roleDescription:
         "I'm Web Developer Full Stack, I works with react.js, node.js, laravel, mysql, mongodb, docker, git, ... I never stop learning. Also, I'm Science Computer student at the Universidad Central de Venezuela. ",
@@ -20,7 +21,7 @@ let resumeData = {
         {
             name: "gitlab",
             url: "http://gitlab.com/juannavasjn",
-            className: "fab fa-gitlab"
+            className: "fa fa-gitlab"
         }
     ],
     aboutme:
@@ -50,7 +51,7 @@ let resumeData = {
     skills: [
         {
             skillname: "HTML5",
-            skillsize: "65%"
+            skillsize: "55%"
         },
         {
             skillname: "CSS",
@@ -58,11 +59,11 @@ let resumeData = {
         },
         {
             skillname: "JS",
-            skillsize: "50%"
+            skillsize: "45%"
         },
         {
             skillname: "React.js",
-            skillsize: "55%"
+            skillsize: "50%"
         },
         {
             skillname: "Node.js",
@@ -78,39 +79,7 @@ let resumeData = {
         },
         {
             skillname: "Git",
-            skillsize: "65%"
-        }
-    ],
-    portfolio: [
-        {
-            name: "project1",
-            description: "mobileapp",
-            imgurl: "images/portfolio/phone.jpg"
-        },
-        {
-            name: "project2",
-            description: "mobileapp",
-            imgurl: "images/portfolio/project.jpg"
-        },
-        {
-            name: "project3",
-            description: "mobileapp",
-            imgurl: "images/portfolio/project2.png"
-        },
-        {
-            name: "project4",
-            description: "mobileapp",
-            imgurl: "images/portfolio/phone.jpg"
-        }
-    ],
-    testimonials: [
-        {
-            description: "This is a sample testimonial",
-            name: "Some technical guy"
-        },
-        {
-            description: "This is a sample testimonial",
-            name: "Some technical guy"
+            skillsize: "55%"
         }
     ]
 };

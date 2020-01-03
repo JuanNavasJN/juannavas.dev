@@ -154,7 +154,7 @@ export default class Header extends Component {
                         params={{
                             particles: {
                                 number: {
-                                    value: 150
+                                    value: 80
                                 },
                                 size: {
                                     value: 3
