@@ -1,3 +1,3 @@
 ## Juan Navas Portfolio's
 
-view on: https://juannavas.com.ve
+Live on: https://juannavas.xyz
