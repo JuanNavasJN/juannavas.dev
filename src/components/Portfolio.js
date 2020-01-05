@@ -30,9 +30,12 @@ export default class Porfolio extends Component {
                             id="portfolio-wrapper"
                             className="bgrid-quarters s-bgrid-thirds cf"
                         >
-                            {works.map(item => {
+                            {works.map((item, idx) => {
                                 return (
-                                    <div className="columns portfolio-item">
+                                    <div
+                                        className="columns portfolio-item"
+                                        key={idx}
+                                    >
                                         <div className="item-wrap">
                                             <a
                                                 href={item.url}

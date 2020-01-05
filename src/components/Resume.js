@@ -13,9 +13,9 @@ export default class Resume extends Component {
 
                     <div className="nine columns main-col">
                         {resumeData.education &&
-                            resumeData.education.map(item => {
+                            resumeData.education.map((item, i) => {
                                 return (
-                                    <div className="row item">
+                                    <div className="row item" key={i}>
                                         <div className="twelve columns">
                                             <h3>{item.UniversityName}</h3>
                                             <p className="info">
@@ -42,9 +42,9 @@ export default class Resume extends Component {
 
                     <div className="nine columns main-col">
                         {resumeData.work &&
-                            resumeData.work.map(item => {
+                            resumeData.work.map((item, i) => {
                                 return (
-                                    <div className="row item">
+                                    <div className="row item" key={i}>
                                         <div className="twelve columns">
                                             <a
                                                 href={item.CompanyLink}
@@ -82,9 +82,9 @@ export default class Resume extends Component {
                         <div className="bars">
                             <ul className="skills">
                                 {resumeData.skills &&
-                                    resumeData.skills.map(item => {
+                                    resumeData.skills.map((item, i) => {
                                         return (
-                                            <li>
+                                            <li key={i}>
                                                 <span
                                                     className={`bar-expand`}
                                                     style={{
