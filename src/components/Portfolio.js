@@ -1,14 +1,14 @@
-import React, { Component } from "react";
-import axios from "axios";
+import React, { Component } from 'react';
+import axios from 'axios';
 
-const urlBase = "https://api.juannavas.xyz";
+const urlBase = 'https://api.juannavas.dev';
 
 export default class Porfolio extends Component {
     state = {
         works: []
     };
     componentDidMount = async () => {
-        const projects = (await axios.get(urlBase + "/projects")).data;
+        const projects = (await axios.get(urlBase + '/projects')).data;
         let works = projects
             .map(e => ({
                 name: e.name,
