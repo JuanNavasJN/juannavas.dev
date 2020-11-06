@@ -24,6 +24,10 @@ export default function MyApp({ Component, pageProps }) {
                     rel="stylesheet"
                     href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
                 />
+                <meta
+                    name="description"
+                    content="I'm Full Stack Web Developer, I works with React.js, Node.js, Laravel, MySQL, MongoDB, Docker, Git, ... "
+                />
             </Head>
             <Component {...pageProps} />
         </Fragment>

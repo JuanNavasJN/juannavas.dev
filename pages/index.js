@@ -42,6 +42,7 @@ Home.getInitialProps = async function () {
             description: e.description,
             imgurl: urlBase + e.image.url,
             url: e.url,
+            show: e.show,
         }))
         .reverse();
 
