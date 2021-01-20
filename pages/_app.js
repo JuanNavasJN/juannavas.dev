@@ -26,7 +26,7 @@ export default function MyApp({ Component, pageProps }) {
                 />
                 <meta
                     name="description"
-                    content="I'm Full Stack Web Developer, I works with React.js, Node.js, Laravel, MySQL, MongoDB, Docker, Git, ... "
+                    content="I'm Software Developer, I work with React.js, Node.js, Flutter, MongoDB, Docker, Git, AWS ... "
                 />
             </Head>
             <Component {...pageProps} />
