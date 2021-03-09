@@ -1,4 +1,4 @@
-import React from 'react'; 
+import React from "react";
 
 const About = () => {
     return (
@@ -7,7 +7,11 @@ const About = () => {
                 <div className="row align-items-center">
                     <div className="col-lg-5">
                         <div className="about-img-three">
-                            <img src="/images/about4.jpg" alt="About" />
+                            <img
+                                className="about-img"
+                                src="/img/jn.png"
+                                alt="About"
+                            />
                         </div>
                     </div>
 
@@ -15,55 +19,24 @@ const About = () => {
                         <div className="about-content">
                             <div className="section-title three">
                                 <span className="sub-title">ABOUT ME</span>
-                                <h2>I Am A Web Developer, Specialized In WordPress, PHP, JavaScript & React</h2>
-                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, seddiam voluptua. At vero eos et accusam et.</p>
-                            </div>
-
-                            <div className="row">
-                                <div className="col-lg-6">
-                                    <div className="left">
-                                        <ul>
-                                            <li>
-                                                <span>Age:</span>
-                                                26 Years
-                                            </li>
-                                            <li>
-                                                <span>Residence:</span>
-                                                San Francisco
-                                            </li>
-                                            <li>
-                                                <span>Address:</span>
-                                                <a href="#" target="_blank">12/7, Mc Street, Canada</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-                                <div className="col-lg-6">
-                                    <div className="right">
-                                        <ul>
-                                            <li>
-                                                <span>Phone:</span>
-                                                <a href="tel:+00932123456">+009 321 23456</a>
-                                            </li>
-                                            <li>
-                                                <span>Email:</span>
-                                                <a href="mailto:hello@reton.com">hello@reton.com</a>
-                                            </li>
-                                            <li>
-                                                <span>Website:</span>
-                                                <a href="#" target="_blank">www.reton.com</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
+                                <h2>
+                                    I Am A Full Stack Developer, Specialized In
+                                    JavaScript, React, Node.js
+                                </h2>
+                                <p>
+                                    I have experience with each layer of web
+                                    development: frontend, backend, database.
+                                    Also, I develop mobile applications with
+                                    React Native and Flutter. I am passionate
+                                    about technology, I never stop learning.
+                                </p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    )
-}
+    );
+};
 
 export default About;

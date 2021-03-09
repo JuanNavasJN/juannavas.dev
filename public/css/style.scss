@@ -42,7 +42,8 @@ $blue-color: #5c2cff;
 $pink-color: #ed2c66;
 $grey-color: #b7b7b7;
 // $green-color: #4BFFA5;
-$green-color: #4157ff;
+// $green-color: #4157ff;
+$green-color: #003cff;
 
 /*----- Default CSS -----*/
 body {
@@ -2152,41 +2153,45 @@ button {
             display: inline-block;
         }
     }
-    .skill1 {
-        width: 90%;
 
-        .skill-count1 {
-            right: 7px;
-        }
+    .skill-count {
+        right: 7px;
     }
-    .skill2 {
-        width: 70%;
+    // .skill1 {
+    //     width: 90%;
 
-        .skill-count2 {
-            right: 7px;
-        }
-    }
-    .skill3 {
-        width: 80%;
+    //     .skill-count1 {
+    //         right: 7px;
+    //     }
+    // }
+    // .skill2 {
+    //     width: 70%;
 
-        .skill-count3 {
-            right: 7px;
-        }
-    }
-    .skill4 {
-        width: 98%;
+    //     .skill-count2 {
+    //         right: 7px;
+    //     }
+    // }
+    // .skill3 {
+    //     width: 80%;
 
-        .skill-count4 {
-            right: 7px;
-        }
-    }
-    .skill5 {
-        width: 78%;
+    //     .skill-count3 {
+    //         right: 7px;
+    //     }
+    // }
+    // .skill4 {
+    //     width: 98%;
 
-        .skill-count5 {
-            right: 7px;
-        }
-    }
+    //     .skill-count4 {
+    //         right: 7px;
+    //     }
+    // }
+    // .skill5 {
+    //     width: 78%;
+
+    //     .skill-count5 {
+    //         right: 7px;
+    //     }
+    // }
 }
 
 /*-- Projects --*/

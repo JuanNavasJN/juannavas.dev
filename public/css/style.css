@@ -144,20 +144,20 @@ button:focus {
   color: #fff; }
 
 .common-btn.three {
-  color: #4157ff;
-  border: 2px solid #4157ff; }
+  color: #003cff;
+  border: 2px solid #003cff; }
 
 .common-btn.three:before {
-  background-color: #4157ff;
-  border-top: 2px solid #4157ff;
-  border-left: 2px solid #4157ff;
-  border-bottom: 2px solid #4157ff; }
+  background-color: #003cff;
+  border-top: 2px solid #003cff;
+  border-left: 2px solid #003cff;
+  border-bottom: 2px solid #003cff; }
 
 .common-btn.three:after {
-  background-color: #4157ff;
-  border-top: 2px solid #4157ff;
-  border-right: 2px solid #4157ff;
-  border-bottom: 2px solid #4157ff; }
+  background-color: #003cff;
+  border-top: 2px solid #003cff;
+  border-right: 2px solid #003cff;
+  border-bottom: 2px solid #003cff; }
 
 .common-btn.three:hover {
   color: #171717; }
@@ -259,16 +259,16 @@ button:focus {
   color: #fddb3a; }
 
 .section-title.three .sub-title {
-  color: #4157ff; }
+  color: #003cff; }
 
 .section-title.three .sub-title:before {
-  background-color: #4157ff; }
+  background-color: #003cff; }
 
 .section-title.three h2 {
   color: #fff; }
 
 .section-title.three h2 span {
-  color: #4157ff; }
+  color: #003cff; }
 
 .section-title.three p {
   color: #b7b7b7; }
@@ -1622,7 +1622,7 @@ button:focus {
   text-transform: uppercase; }
 
 .pufo-aside .navbar-nav li a:hover, .pufo-aside .navbar-nav li a.active {
-  color: #4157ff; }
+  color: #003cff; }
 
 .pufo-aside .logo {
   position: absolute;
@@ -1658,7 +1658,7 @@ button:focus {
   color: #fff; }
 
 .pufo-aside .aside-footer .social li a:hover {
-  color: #4157ff; }
+  color: #003cff; }
 
 .pufo-aside .aside-show-hide {
   position: absolute;
@@ -1710,14 +1710,14 @@ button:focus {
   max-width: 100%; }
 
 .banner-area.three .banner-content h1 span {
-  color: #4157ff; }
+  color: #003cff; }
 
 .banner-area.three .banner-content p {
   color: #fff;
   margin-bottom: 35px; }
 
 .banner-area.three .banner-content p span {
-  color: #4157ff; }
+  color: #003cff; }
 
 .banner-area.three .banner-content .banner-btn.three {
   color: #171717; }
@@ -1740,12 +1740,12 @@ button:focus {
   color: #b7b7b7; }
 
 .about-area.three .about-content ul li a:hover {
-  color: #4157ff; }
+  color: #003cff; }
 
 /*-- Services --*/
 .what-area.three .what-item {
   text-align: left;
-  border: 1px solid #4157ff;
+  border: 1px solid #003cff;
   padding: 30px 30px 30px;
   transition: 0.5s all ease; }
 
@@ -1759,7 +1759,7 @@ button:focus {
   color: #fff; }
 
 .what-area.three .what-item h3 a:hover {
-  color: #4157ff; }
+  color: #003cff; }
 
 .what-area.three .what-item p {
   color: #b7b7b7; }
@@ -1768,7 +1768,7 @@ button:focus {
   color: #fff; }
 
 .what-area.three .what-item .what-btn:hover {
-  color: #4157ff; }
+  color: #003cff; }
 
 /*-- Experience --*/
 .experience-area.three .experience-content .experience-inner ul li span {
@@ -1808,7 +1808,7 @@ button:focus {
 .skills-area .skill-bar {
   width: 100%;
   height: 8px;
-  background: #4157ff;
+  background: #003cff;
   display: block;
   position: relative;
   border-radius: 30px; }
@@ -1823,34 +1823,7 @@ button:focus {
   margin-bottom: 0;
   display: inline-block; }
 
-.skills-area .skill1 {
-  width: 90%; }
-
-.skills-area .skill1 .skill-count1 {
-  right: 7px; }
-
-.skills-area .skill2 {
-  width: 70%; }
-
-.skills-area .skill2 .skill-count2 {
-  right: 7px; }
-
-.skills-area .skill3 {
-  width: 80%; }
-
-.skills-area .skill3 .skill-count3 {
-  right: 7px; }
-
-.skills-area .skill4 {
-  width: 98%; }
-
-.skills-area .skill4 .skill-count4 {
-  right: 7px; }
-
-.skills-area .skill5 {
-  width: 78%; }
-
-.skills-area .skill5 .skill-count5 {
+.skills-area .skill-count {
   right: 7px; }
 
 /*-- Projects --*/
@@ -1904,7 +1877,7 @@ button:focus {
 
 .projects-area .projects-item .inner span {
   display: block;
-  color: #4157ff;
+  color: #003cff;
   font-weight: 700; }
 
 .projects-area .projects-item.two img {
@@ -1912,19 +1885,19 @@ button:focus {
 
 /*-- Blog --*/
 .blog-area.three .blog-item .top h4 {
-  background-color: #4157ff; }
+  background-color: #003cff; }
 
 .blog-area.three .blog-item .bottom h3 a {
   color: #fff; }
 
 .blog-area.three .blog-item .bottom h3 a:hover {
-  color: #4157ff; }
+  color: #003cff; }
 
 .blog-area.three .blog-item .bottom p {
   color: #b7b7b7; }
 
 .blog-area.three .blog-item .bottom .blog-btn {
-  color: #4157ff; }
+  color: #003cff; }
 
 .blog-area.three .blog-item .bottom .blog-btn:hover {
   color: #fff; }
@@ -1937,7 +1910,7 @@ button:focus {
   color: #b7b7b7; }
 
 .contact-area.three .contact-content .top ul li a:hover {
-  color: #4157ff; }
+  color: #003cff; }
 
 .contact-area.three .contact-content .bottom ul li a {
   color: #fff; }
@@ -1947,10 +1920,10 @@ button:focus {
   color: #fff; }
 
 .copyright-area.three .copyright-item p a {
-  color: #4157ff; }
+  color: #003cff; }
 
 .copyright-area.three .copyright-item p a:hover {
-  color: #4157ff; }
+  color: #003cff; }
 
 /*----- End Home Demo Three CSS -----*/
 /*----- Home Demo Four CSS -----*/
@@ -3645,21 +3618,21 @@ button:focus {
   border: 0 !important; }
 
 .review-area.three .review-item p {
-  color: #4157ff !important; }
+  color: #003cff !important; }
 
 .review-area.three .owl-theme .owl-nav {
   margin-top: 30px; }
 
 .review-area.three .owl-theme .owl-nav .owl-prev,
 .review-area.three .owl-theme .owl-nav .owl-next {
-  border: 1px solid #4157ff !important;
-  color: #4157ff !important;
+  border: 1px solid #003cff !important;
+  color: #003cff !important;
   background-color: transparent; }
 
 .review-area.three .owl-theme .owl-nav .owl-prev:hover,
 .review-area.three .owl-theme .owl-nav .owl-next:hover {
   color: #171717 !important;
-  background-color: #4157ff !important; }
+  background-color: #003cff !important; }
 
 /*----- End Service Details CSS -----*/
 /*----- Demos Wrap -----*/
@@ -3787,7 +3760,7 @@ button:focus {
   bottom: 0;
   right: 15px;
   color: #ffffff;
-  background-color: #4157ff;
+  background-color: #003cff;
   z-index: 4;
   width: 45px;
   text-align: center;
@@ -3796,7 +3769,7 @@ button:focus {
   visibility: hidden;
   transition: 0.9s;
   border-radius: 50%;
-  border: 1px solid #4157ff; }
+  border: 1px solid #003cff; }
 
 .go-top i {
   position: absolute;

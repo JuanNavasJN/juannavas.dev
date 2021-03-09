@@ -1,13 +1,13 @@
 import React from "react";
-import Link from "next/link";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const MainBanner = () => {
     return (
         <div id="home" className="banner-area border-bottom-two three">
             <div className="common-right-text-two">
                 <span>
-                    Reton <br /> MILANOS <br /> HIGHLY <br /> EXPERIENCED <br />{" "}
-                    WEB <br /> DEVELOPER
+                    JUAN <br /> NAVAS <br /> FULL <br /> STACK <br />
+                    DEVELOPER
                 </span>
             </div>
 
@@ -26,16 +26,16 @@ const MainBanner = () => {
                             </p>
 
                             <div className="banner-btn-area">
-                                <Link href="#">
+                                <AnchorLink href="#contact">
                                     <a className="common-btn three">
                                         Contact With Me
                                     </a>
-                                </Link>
-                                <Link href="#">
+                                </AnchorLink>
+                                {/* <Link href="#">
                                     <a className="common-btn banner-btn three">
                                         Hire Me
                                     </a>
-                                </Link>
+                                </Link> */}
                             </div>
                         </div>
                     </div>

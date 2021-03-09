@@ -63,12 +63,6 @@ const ContactForm = () => {
                         Yes! You Are Here! Have You Any Project? Drop A Line
                         Here
                     </h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-                        sed diam nonumy eirmod tempor invidunt ut labore et
-                        dolore magna aliquyam erat, seddiam voluptua. At vero
-                        eos et accusam et.
-                    </p>
                 </div>
 
                 <div className="row align-items-center">
