@@ -7,7 +7,7 @@ const Experience = () => {
             <div className="container">
                 <div className="section-title three">
                     <span className="sub-title">EXPERIENCE</span>
-                    <h2>I Have 2+ Years Of Experience</h2>
+                    <h2>I Have 3+ Years Of Experience</h2>
                 </div>
 
                 <div className="experience-content">
@@ -71,7 +71,7 @@ const Experience = () => {
                                 </span>
                             </li>
                             <li>
-                                <p>React.js, Node.js...</p>
+                                <p>Next.js, Node.js...</p>
                             </li>
                         </ul>
                     </div>

@@ -19,16 +19,16 @@ const MainBanner = () => {
                                 <span>Juan</span> Navas
                             </h1>
                             <p>
-                                Hello! I'm a <span>Full Stack Developer</span>.
-                                I have experience with React.js, Node.js,
-                                Flutter, MongoDB, Docker, AWS, Git... I never
-                                stop learning.
+                                Hey! I'm a <span>Full Stack Developer</span>. I
+                                have experience with React.js, Node.js, Flutter,
+                                MongoDB, Docker, AWS, Git... I never stop
+                                learning.
                             </p>
 
                             <div className="banner-btn-area">
                                 <AnchorLink href="#contact">
                                     <a className="common-btn three">
-                                        Contact With Me
+                                        Contact Me
                                     </a>
                                 </AnchorLink>
                                 {/* <Link href="#">

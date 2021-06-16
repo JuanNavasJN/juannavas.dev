@@ -1,11 +1,11 @@
 .about-img-three img.about-img {
     border-radius: 100% !important;
-    width: 80%;
+    width: 50%;
 }
 
 @media only screen and (max-width: 500px) {
     .about-img-three img.about-img {
         border-radius: 100% !important;
-        width: 50%;
+        width: 40%;
     }
 }
