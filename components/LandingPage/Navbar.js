@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Link from "next/link";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
 class Navbar extends Component {
@@ -139,12 +138,14 @@ class Navbar extends Component {
                             </ul>
 
                             <div className="aside-footer">
-                                <Link href="#">
-                                    <a className="common-btn three">
-                                        Download CV{" "}
-                                        <i className="bx bxs-download"></i>
-                                    </a>
-                                </Link>
+                                <a
+                                    className="common-btn three"
+                                    href="/cv/CV_EN.pdf"
+                                    target="_blank"
+                                >
+                                    Download CV{" "}
+                                    <i className="bx bxs-download"></i>
+                                </a>
                                 <ul className="social">
                                     <li>
                                         <a
