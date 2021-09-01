@@ -12,39 +12,68 @@ const Skills = () => {
                 </div>
 
                 <div className="skill-wrap">
-                    <div className="skill">
-                        <h3>JAVASCRIPT</h3>
-                        <div
-                            className="skill-bar skill1 wow fadeInLeftBig"
-                            style={{
-                                width: "90%",
-                            }}
-                        >
-                            <span className="skill-count">90%</span>
-                        </div>
-                    </div>
+                    <div className="row">
+                        <div className="col-sm-12 col-md-6">
+                            <div className="skill">
+                                <h3>REACT.JS</h3>
+                                <div
+                                    className="skill-bar  wow fadeInLeftBig"
+                                    style={{
+                                        width: "100%",
+                                    }}
+                                ></div>
+                            </div>
 
-                    <div className="skill">
-                        <h3>REACT JS</h3>
-                        <div
-                            className="skill-bar skill2 wow fadeInLeftBig"
-                            style={{
-                                width: "70%",
-                            }}
-                        >
-                            <span className="skill-count">70%</span>
-                        </div>
-                    </div>
+                            <div className="skill">
+                                <h3>NODE.JS</h3>
+                                <div
+                                    className="skill-bar  wow fadeInLeftBig"
+                                    style={{
+                                        width: "100%",
+                                    }}
+                                ></div>
+                            </div>
 
-                    <div className="skill">
-                        <h3>FLUTTER</h3>
-                        <div
-                            className="skill-bar skill4 wow fadeInLeftBig"
-                            style={{
-                                width: "40%",
-                            }}
-                        >
-                            <span className="skill-count">40%</span>
+                            <div className="skill">
+                                <h3>REACT NATIVE</h3>
+                                <div
+                                    className="skill-bar  wow fadeInLeftBig"
+                                    style={{
+                                        width: "100%",
+                                    }}
+                                ></div>
+                            </div>
+                        </div>
+                        <div className="col-sm-12 col-md-6 mt-5 mt-md-0">
+                            <div className="skill ">
+                                <h3>FLUTTER</h3>
+                                <div
+                                    className="skill-bar wow fadeInLeftBig"
+                                    style={{
+                                        width: "100%",
+                                    }}
+                                ></div>
+                            </div>
+
+                            <div className="skill">
+                                <h3>AWS</h3>
+                                <div
+                                    className="skill-bar wow fadeInLeftBig"
+                                    style={{
+                                        width: "100%",
+                                    }}
+                                ></div>
+                            </div>
+
+                            <div className="skill">
+                                <h3>DOCKER</h3>
+                                <div
+                                    className="skill-bar wow fadeInLeftBig"
+                                    style={{
+                                        width: "100%",
+                                    }}
+                                ></div>
+                            </div>
                         </div>
                     </div>
                 </div>
