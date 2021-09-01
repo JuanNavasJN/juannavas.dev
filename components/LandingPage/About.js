@@ -23,12 +23,12 @@ const About = () => {
                                     I Am A Full Stack Developer, Specialized In
                                     JavaScript, React, Node.js
                                 </h2>
-                                <p>
+                                <p className="about-me-paragraph">
                                     I have experience with each layer of web
-                                    development: frontend, backend, database.
-                                    Also, I develop mobile applications with
-                                    React Native and Flutter. I am passionate
-                                    about technology, I never stop learning.
+                                    development. Also, I develop mobile
+                                    applications with React Native and Flutter.
+                                    I'm not an expert, but I really like the
+                                    technology and I never stop learning.
                                 </p>
                             </div>
                         </div>

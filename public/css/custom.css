@@ -3,6 +3,10 @@
     width: 50%;
 }
 
+.about-me-paragraph {
+    font-size: 18px;
+}
+
 @media only screen and (max-width: 500px) {
     .about-img-three img.about-img {
         border-radius: 100% !important;
