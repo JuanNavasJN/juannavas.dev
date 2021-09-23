@@ -60,7 +60,7 @@ const ContactForm = () => {
                 <div className="section-title three">
                     <span className="sub-title">CONTACT</span>
                     <h2>Have You Any Project?</h2>
-                    <h2>Feel Free To Email Me</h2>
+                    <h2>Feel Free To Contact Me</h2>
                 </div>
 
                 <div className="row align-items-center">
