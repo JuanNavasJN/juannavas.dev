@@ -25,7 +25,7 @@ const Skills = () => {
                             </div>
 
                             <div className="skill">
-                                <h3>NODE.JS</h3>
+                                <h3>REACT NATIVE</h3>
                                 <div
                                     className="skill-bar  wow fadeInLeftBig"
                                     style={{
@@ -35,7 +35,7 @@ const Skills = () => {
                             </div>
 
                             <div className="skill">
-                                <h3>REACT NATIVE</h3>
+                                <h3>AWS</h3>
                                 <div
                                     className="skill-bar  wow fadeInLeftBig"
                                     style={{
@@ -46,7 +46,7 @@ const Skills = () => {
                         </div>
                         <div className="col-sm-12 col-md-6 mt-5 mt-md-0">
                             <div className="skill ">
-                                <h3>FLUTTER</h3>
+                                <h3>NODE.JS</h3>
                                 <div
                                     className="skill-bar wow fadeInLeftBig"
                                     style={{
@@ -56,7 +56,7 @@ const Skills = () => {
                             </div>
 
                             <div className="skill">
-                                <h3>AWS</h3>
+                                <h3>FLUTTER</h3>
                                 <div
                                     className="skill-bar wow fadeInLeftBig"
                                     style={{
