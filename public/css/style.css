@@ -419,14 +419,14 @@ button:focus {
 
 .navbar-toggler {
   border: none;
-  background: #eee !important;
+  background: #003cff !important;
   padding: 10px;
   border-radius: 0; }
 
 .navbar-toggler .icon-bar {
   width: 28px;
   transition: all 0.3s;
-  background: #171717;
+  background: #fff;
   height: 2px;
   display: block; }
 

@@ -484,14 +484,14 @@ button {
 
 .navbar-toggler {
     border: none;
-    background: #eee !important;
+    background: $green-color !important;
     padding: 10px;
     border-radius: 0;
 
     .icon-bar {
         width: 28px;
         transition: all 0.3s;
-        background: $main-color;
+        background: $white-color;
         height: 2px;
         display: block;
     }
