@@ -140,7 +140,7 @@ class Navbar extends Component {
                             <div className="aside-footer">
                                 <a
                                     className="common-btn three"
-                                    href="/cv/CV_EN.pdf"
+                                    href="/cv/CV_JUAN_NAVAS_EN.pdf"
                                     target="_blank"
                                 >
                                     Download CV{" "}
