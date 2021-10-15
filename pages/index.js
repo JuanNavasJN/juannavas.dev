@@ -8,6 +8,7 @@ import Projects from "../components/LandingPage/Projects";
 import ContactForm from "../components/LandingPage/ContactForm";
 import Footer from "../components/LandingPage/Footer";
 import { useEffect } from "react";
+import axios from "axios";
 
 const Index = () => {
     useEffect(_ => {
