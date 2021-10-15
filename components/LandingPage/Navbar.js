@@ -71,12 +71,6 @@ class Navbar extends Component {
                     className="navbar navbar-expand-lg pufo-aside bg-0f1d22"
                 >
                     <div className="container">
-                        {/* <Link href="/index-3">
-                            <a className="navbar-brand logo">
-                                <img src="/images/logo-four.png" alt="logo" />
-                            </a>
-                        </Link> */}
-
                         <button
                             onClick={this.toggleNavbar}
                             className={classTwo}

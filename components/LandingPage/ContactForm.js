@@ -1,56 +1,6 @@
-import React, { useState } from "react";
-import { useForm } from "react-hook-form";
-import axios from "axios";
-import Swal from "sweetalert2";
-import withReactContent from "sweetalert2-react-content";
-const MySwal = withReactContent(Swal);
-import baseUrl from "../../utils/baseUrl";
-
-const alertContent = () => {
-    MySwal.fire({
-        title: "Congratulations!",
-        text: "Your message was successfully send and will back to you soon",
-        icon: "success",
-        timer: 2000,
-        timerProgressBar: true,
-        showConfirmButton: false,
-    });
-};
-
-// Form initial state
-const INITIAL_STATE = {
-    name: "",
-    email: "",
-    number: "",
-    subject: "",
-    text: "",
-};
+import React from "react";
 
 const ContactForm = () => {
-    const [contact, setContact] = useState(INITIAL_STATE);
-    const { register, handleSubmit, errors } = useForm();
-
-    const handleChange = e => {
-        const { name, value } = e.target;
-        setContact(prevState => ({ ...prevState, [name]: value }));
-        console.log(contact);
-    };
-
-    const onSubmit = async e => {
-        // e.preventDefault();
-        try {
-            const url = `${baseUrl}/api/contact`;
-            const { name, email, number, subject, text } = contact;
-            const payload = { name, email, number, subject, text };
-            await axios.post(url, payload);
-            console.log(url);
-            setContact(INITIAL_STATE);
-            alertContent();
-        } catch (error) {
-            console.log(error);
-        }
-    };
-
     return (
         <div
             id="contact"

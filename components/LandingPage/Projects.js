@@ -17,7 +17,7 @@ const Projects = () => {
                         >
                             <div className="projects-item">
                                 <img
-                                    src="/img/projects/visitors.png"
+                                    src="/images/projects/visitors.png"
                                     alt="Visitors"
                                 />
                                 <div className="inner">
@@ -37,7 +37,7 @@ const Projects = () => {
                         >
                             <div className="projects-item">
                                 <img
-                                    src="/img/projects/muncak.png"
+                                    src="/images/projects/muncak.png"
                                     alt="Muncak"
                                 />
                                 <div className="inner">
@@ -57,7 +57,7 @@ const Projects = () => {
                         >
                             <div className="projects-item">
                                 <img
-                                    src="/img/projects/orion.png"
+                                    src="/images/projects/orion.png"
                                     alt="Orion"
                                 />
                                 <div className="inner">
@@ -77,7 +77,7 @@ const Projects = () => {
                         >
                             <div className="projects-item">
                                 <img
-                                    src="/img/projects/francesca.png"
+                                    src="/images/projects/francesca.png"
                                     alt="Francesca"
                                 />
                                 <div className="inner">
@@ -96,7 +96,7 @@ const Projects = () => {
                         <a target="_blank" href="https://logicol.es/">
                             <div className="projects-item">
                                 <img
-                                    src="/img/projects/logicol.png"
+                                    src="/images/projects/logicol.png"
                                     alt="Logicol"
                                 />
                                 <div className="inner">
@@ -116,7 +116,7 @@ const Projects = () => {
                         >
                             <div className="projects-item">
                                 <img
-                                    src="/img/projects/akowe.png"
+                                    src="/images/projects/akowe.png"
                                     alt="Akowe"
                                 />
                                 <div className="inner">
@@ -135,7 +135,10 @@ const Projects = () => {
                             href="https://jquery-cafe.vercel.app/"
                         >
                             <div className="projects-item">
-                                <img src="/img/projects/cafe.png" alt="Cafe" />
+                                <img
+                                    src="/images/projects/cafe.png"
+                                    alt="Cafe"
+                                />
                                 <div className="inner">
                                     <div className="inner">
                                         <h3>
@@ -153,7 +156,7 @@ const Projects = () => {
                         >
                             <div className="projects-item">
                                 <img
-                                    src="/img/projects/cuanto_es.png"
+                                    src="/images/projects/cuanto_es.png"
                                     alt="CuantoEs"
                                 />
                                 <div className="inner">

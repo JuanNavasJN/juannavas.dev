@@ -5,12 +5,7 @@ class MyDocument extends Document {
         return (
             <Html lang="en">
                 <Head>
-                    <title>Juan Navas</title>
                     <meta name="theme-color" content="#121212" />
-                    <meta
-                        name="viewport"
-                        content="width=device-width, initial-scale=1, shrink-to-fit=no"
-                    />
                     <meta
                         name="description"
                         content="Juan Navas - I'm a Full Stack Developer, I work with React.js, Node.js, Flutter, MongoDB, Docker, Git, AWS ... "

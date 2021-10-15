@@ -9,7 +9,7 @@ const About = () => {
                         <div className="about-img-three">
                             <img
                                 className="about-img"
-                                src="/img/jn.png"
+                                src="/images/jn.png"
                                 alt="About"
                             />
                         </div>
@@ -21,7 +21,7 @@ const About = () => {
                                 <span className="sub-title">ABOUT ME</span>
                                 <h2>
                                     I Am A Full Stack Developer, Specialized In
-                                    JavaScript, React, Node.js
+                                    JavaScript, React.js, Node.js
                                 </h2>
                                 <p className="about-me-paragraph">
                                     I have experience with each layer of web
