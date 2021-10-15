@@ -7,8 +7,17 @@ import Skills from "../components/LandingPage/Skills";
 import Projects from "../components/LandingPage/Projects";
 import ContactForm from "../components/LandingPage/ContactForm";
 import Footer from "../components/LandingPage/Footer";
+import { useEffect } from "react";
 
-const Index3 = () => {
+const Index = () => {
+    useEffect(_ => {
+        if (/localhost/.test(window.location.host) === false) {
+            axios.get(
+                `https://back.juannavas.dev/visitor/${window.location.host}`
+            );
+        }
+    }, []);
+
     return (
         <React.Fragment>
             <div className="body-bg-five">
@@ -29,4 +38,4 @@ const Index3 = () => {
     );
 };
 
-export default Index3;
+export default Index;
