@@ -14,16 +14,30 @@ const Experience = () => {
                     <div className="experience-inner">
                         <ul className="align-items-center">
                             <li>
-                                <span>2018-2020</span>
+                                <span>2021</span>
                             </li>
                             <li>
-                                <span>Programmer, EYSS</span>
+                                <span>
+                                    Intermediate Full Stack Developer,
+                                    Teravision
+                                </span>
                             </li>
                             <li>
-                                <p>
-                                    React.js, Laravel, Node.js, Docker, MySQL,
-                                    MongoDB...
-                                </p>
+                                <p>Next.js, Node.js...</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div className="experience-inner">
+                        <ul className="align-items-center">
+                            <li>
+                                <span>2021</span>
+                            </li>
+                            <li>
+                                <span>Developer, Glufco</span>
+                            </li>
+                            <li>
+                                <p>Vue.js, Laravel...</p>
                             </li>
                         </ul>
                     </div>
@@ -48,39 +62,19 @@ const Experience = () => {
                     <div className="experience-inner">
                         <ul className="align-items-center">
                             <li>
-                                <span>2021</span>
+                                <span>2018-2020</span>
                             </li>
                             <li>
-                                <span>Developer, Glufco</span>
+                                <span>Programmer, EYSS</span>
                             </li>
                             <li>
-                                <p>Vue.js, Laravel...</p>
+                                <p>
+                                    React.js, Laravel, Node.js, Docker, MySQL,
+                                    MongoDB...
+                                </p>
                             </li>
                         </ul>
                     </div>
-
-                    <div className="experience-inner">
-                        <ul className="align-items-center">
-                            <li>
-                                <span>2021</span>
-                            </li>
-                            <li>
-                                <span>
-                                    Intermediate Full Stack Developer,
-                                    Teravision
-                                </span>
-                            </li>
-                            <li>
-                                <p>Next.js, Node.js...</p>
-                            </li>
-                        </ul>
-                    </div>
-
-                    {/* <div className="text-center">
-                        <Link href="/portfolio">
-                            <a className="common-btn three">See My Portfolio</a>
-                        </Link>
-                    </div> */}
                 </div>
             </div>
         </div>
