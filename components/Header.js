@@ -18,7 +18,7 @@ export default class Header extends Component {
         e.preventDefault();
         scroller.scrollTo(name, {
             duration: 500,
-            smooth: true
+            smooth: true,
             // offset: 150 // Scrolls to element + 50 pixels down the page
         });
     };
@@ -105,7 +105,7 @@ export default class Header extends Component {
                             <div className="profile-pic-container">
                                 <img
                                     className="profile-pic"
-                                    src="images/jn.jpg"
+                                    src="images/jn-2021.png"
                                     alt=""
                                 />
                             </div>
@@ -115,7 +115,7 @@ export default class Header extends Component {
                             <h3
                                 style={{
                                     color: "#fff",
-                                    fontFamily: "sans-serif "
+                                    fontFamily: "sans-serif ",
                                 }}
                             >
                                 {resumeData.roleDescription}
@@ -149,25 +149,25 @@ export default class Header extends Component {
                             top: 0,
                             left: 0,
                             width: "100vw",
-                            height: "100vh"
+                            height: "100vh",
                         }}
                         params={{
                             particles: {
                                 number: {
-                                    value: 80
+                                    value: 80,
                                 },
                                 size: {
-                                    value: 3
-                                }
+                                    value: 3,
+                                },
                             },
                             interactivity: {
                                 events: {
                                     onhover: {
                                         enable: true,
-                                        mode: "repulse"
-                                    }
-                                }
-                            }
+                                        mode: "repulse",
+                                    },
+                                },
+                            },
                         }}
                     />
 

@@ -1,11 +1,11 @@
-import { Fragment } from 'react';
-import Head from 'next/head';
+import { Fragment } from "react";
+import Head from "next/head";
 
-import '../public/css/default.css';
-import '../public/css/layout.css';
-import '../public/css/media-queries.css';
-import '../styles/App.css';
-import '../styles/index.css';
+import "../public/css/default.css";
+import "../public/css/layout.css";
+import "../public/css/media-queries.css";
+import "../styles/App.css";
+import "../styles/index.css";
 
 export default function MyApp({ Component, pageProps }) {
     return (
@@ -23,6 +23,10 @@ export default function MyApp({ Component, pageProps }) {
                 <link
                     rel="stylesheet"
                     href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+                />
+                <meta
+                    name="description"
+                    content="I'm Software Developer, I work with React.js, Node.js, Flutter, MongoDB, Docker, Git, AWS ... "
                 />
             </Head>
             <Component {...pageProps} />
