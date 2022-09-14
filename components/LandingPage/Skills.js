@@ -1,85 +1,63 @@
-import React from "react";
+import React, { useState, useEffect } from 'react';
 
-const Skills = () => {
-    return (
-        <div className="skills-area border-bottom-two ptb-100">
-            <div className="container">
-                <div className="section-title three">
-                    <span className="sub-title">SKILLS</span>
-                    <h2>
-                        Here Are Some Overview Of My Skills Just Have A Look
-                    </h2>
-                </div>
+const Skills = ({ texts, skills }) => {
+  const [title, setTitle] = useState('');
+  const [column1, setColumn1] = useState([]);
+  const [column2, setColumn2] = useState([]);
 
-                <div className="skill-wrap">
-                    <div className="row">
-                        <div className="col-sm-12 col-md-6">
-                            <div className="skill">
-                                <h3>REACT.JS</h3>
-                                <div
-                                    className="skill-bar  wow fadeInLeftBig"
-                                    style={{
-                                        width: "100%",
-                                    }}
-                                ></div>
-                            </div>
+  useEffect(() => {
+    const tit = texts.find(text => text.key === 'skills-title') || '';
 
-                            <div className="skill">
-                                <h3>REACT NATIVE</h3>
-                                <div
-                                    className="skill-bar  wow fadeInLeftBig"
-                                    style={{
-                                        width: "100%",
-                                    }}
-                                ></div>
-                            </div>
+    if (tit) setTitle(tit.value);
 
-                            <div className="skill">
-                                <h3>AWS</h3>
-                                <div
-                                    className="skill-bar  wow fadeInLeftBig"
-                                    style={{
-                                        width: "100%",
-                                    }}
-                                ></div>
-                            </div>
-                        </div>
-                        <div className="col-sm-12 col-md-6 mt-5 mt-md-0">
-                            <div className="skill ">
-                                <h3>NODE.JS</h3>
-                                <div
-                                    className="skill-bar wow fadeInLeftBig"
-                                    style={{
-                                        width: "100%",
-                                    }}
-                                ></div>
-                            </div>
+    const c1 = skills.find(col => col.column === '1');
+    if (c1) setColumn1(c1.values);
 
-                            <div className="skill">
-                                <h3>FLUTTER</h3>
-                                <div
-                                    className="skill-bar wow fadeInLeftBig"
-                                    style={{
-                                        width: "100%",
-                                    }}
-                                ></div>
-                            </div>
+    const c2 = skills.find(col => col.column === '2');
+    if (c2) setColumn2(c2.values);
+  }, [texts]);
 
-                            <div className="skill">
-                                <h3>DOCKER</h3>
-                                <div
-                                    className="skill-bar wow fadeInLeftBig"
-                                    style={{
-                                        width: "100%",
-                                    }}
-                                ></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+  return (
+    <div className="skills-area border-bottom-two ptb-100">
+      <div className="container">
+        <div className="section-title three">
+          <span className="sub-title">SKILLS</span>
+          <h2>{title}</h2>
         </div>
-    );
+
+        <div className="skill-wrap">
+          <div className="row">
+            <div className="col-sm-12 col-md-6">
+              {column1.map(skill => (
+                <div className="skill" key={skill}>
+                  <h3>{skill}</h3>
+                  <div
+                    className="skill-bar  wow fadeInLeftBig"
+                    style={{
+                      width: '100%'
+                    }}
+                  ></div>
+                </div>
+              ))}
+            </div>
+            <div className="col-sm-12 col-md-6 mt-5 mt-md-0">
+              {column2.map(skill => (
+                <div className="skill" key={skill}>
+                  <h3>{skill}</h3>
+                  <div
+                    className="skill-bar  wow fadeInLeftBig"
+                    style={{
+                      width: '100%'
+                    }}
+                  ></div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 };
 
 export default Skills;

@@ -1,7 +1,15 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 
-const MainBanner = () => {
+const MainBanner = ({ texts }) => {
+  const [subtitle, setSubtitle] = useState('');
+
+  useEffect(() => {
+    const sub = texts.find(text => text.key === 'subtitle') || '';
+
+    if (sub) setSubtitle(sub.value);
+  }, [texts]);
+
   return (
     <div id="home" className="banner-area border-bottom-two three">
       <div className="common-right-text-two">
@@ -19,20 +27,13 @@ const MainBanner = () => {
                 <span>Juan</span> Navas
               </h1>
               <p>
-                Hey! I'm a <span>Full Stack Engineer</span>. I have experience
-                with React.js, Node.js, Flutter, MongoDB, Docker, AWS, Git... I
-                never stop learning.
+                Hello! I'm a <span>Full-Stack Web Developer</span>. {subtitle}
               </p>
 
               <div className="banner-btn-area">
                 <AnchorLink href="#contact">
                   <a className="common-btn three">Contact Me</a>
                 </AnchorLink>
-                {/* <Link href="#">
-                                    <a className="common-btn banner-btn three">
-                                        Hire Me
-                                    </a>
-                                </Link> */}
               </div>
             </div>
           </div>

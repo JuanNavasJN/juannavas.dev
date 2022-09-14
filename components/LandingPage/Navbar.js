@@ -4,7 +4,8 @@ import AnchorLink from 'react-anchor-link-smooth-scroll';
 class Navbar extends Component {
   state = {
     collapsed: true,
-    sidebarModal: false
+    sidebarModal: false,
+    cvLink: ''
   };
 
   toggleNavbar = () => {
@@ -33,6 +34,10 @@ class Navbar extends Component {
     window.scrollTo(0, 0);
 
     this.menuActiveClass();
+
+    const link = this.props.files.find(file => file.name === 'cv');
+
+    if (link) this.setState({ cvLink: this.props.urlBase + link.file.url });
   }
 
   menuActiveClass = () => {
@@ -134,7 +139,8 @@ class Navbar extends Component {
               <div className="aside-footer">
                 <a
                   className="common-btn three"
-                  href="/cv/CV_JUAN_NAVAS.pdf"
+                  // href="/cv/CV_JUAN_NAVAS.pdf"
+                  href={this.state.cvLink}
                   target="_blank"
                 >
                   Download CV <i className="bx bxs-download"></i>
