@@ -1,7 +1,10 @@
-const path = require('path')
+const path = require('path');
 
 module.exports = {
-    sassOptions: {
-        includePaths: [path.join(__dirname, 'styles')],
-    },
-}
+  sassOptions: {
+    includePaths: [path.join(__dirname, 'styles')]
+  },
+  env: {
+    API_URL_BASE: process.env.API_URL_BASE
+  }
+};
