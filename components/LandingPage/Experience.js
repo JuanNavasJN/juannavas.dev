@@ -20,7 +20,7 @@ const Experience = ({ texts, experiences }) => {
         <div className="experience-content">
           {experiences &&
             experiences.map(exp => (
-              <div className="experience-inner" exp={exp.id}>
+              <div className="experience-inner" key={'exp-' + exp.id}>
                 <ul className="align-items-center">
                   <li>
                     <span>{exp.date}</span>

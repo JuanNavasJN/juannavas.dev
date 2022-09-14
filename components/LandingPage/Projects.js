@@ -38,7 +38,7 @@ const Projects = ({ texts, projects, urlBase }) => {
         <div className="row">
           <div className="col-sm-6">
             {column1.map(proj => (
-              <a target="_blank" href={proj.url} key={proj.id}>
+              <a target="_blank" href={proj.url} key={'project-' + proj.id}>
                 <div className="projects-item">
                   <img src={urlBase + proj.image.url} alt={proj.imageAlt} />
                   <div className="inner">
@@ -56,7 +56,7 @@ const Projects = ({ texts, projects, urlBase }) => {
 
           <div className="col-sm-6">
             {column2.map(proj => (
-              <a target="_blank" href={proj.url} key={proj.id}>
+              <a target="_blank" href={proj.url} key={'project-' + proj.id}>
                 <div className="projects-item">
                   <img src={urlBase + proj.image.url} alt={proj.imageAlt} />
                   <div className="inner">
