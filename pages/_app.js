@@ -29,7 +29,7 @@ const MyApp = ({ Component, pageProps }) => {
         <script
           async
           defer
-          data-website-id="2441683b-0c7e-4f11-afc7-5a71a2e707ec"
+          data-website-id="54890e73-54f0-48b9-9ff1-9d8b77c2de99"
           src="https://umami.veest.net/umami.js"
         ></script>
       </Head>
