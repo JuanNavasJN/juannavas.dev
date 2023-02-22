@@ -9,7 +9,7 @@ const Footer: FC = () => {
   const iconSize = 60;
   return (
     <footer className={styles.footer}>
-      <div>
+      <div className={styles.contactLinksContainer}>
         <a href="mailto:iam@juannavas.dev">
           <Image
             src="/icons/email.svg"

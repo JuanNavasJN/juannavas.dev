@@ -22,7 +22,7 @@ const ProjectCard: FC<ProjectCardProps> = ({
 }) => {
   return (
     <div className={styles.project}>
-      <div>
+      <div className={styles.imageContainer}>
         <div className={styles.image}></div>
       </div>
       <div>

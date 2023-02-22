@@ -13,3 +13,9 @@
 .footer p {
   margin: 20px 0;
 }
+
+.footer .contactLinksContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

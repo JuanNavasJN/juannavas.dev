@@ -1,9 +1,9 @@
 .project {
   border: 1px solid var(--border-color);
   border-radius: 30px;
-  margin: 20px 0;
+  margin: 20px;
   padding: 20px;
-  width: 700px;
+  width: 900px;
   display: flex;
 
   box-shadow: 10px 10px 19px -13px rgba(0, 0, 0, 0.55);
@@ -20,4 +20,21 @@
 .linksContainer {
   display: flex;
   margin-top: 10px;
+}
+
+@media (max-width: 630px) {
+  .project {
+    flex-direction: column;
+    width: 90vw;
+  }
+
+  .project .imageContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .project p {
+    text-align: justify;
+  }
 }

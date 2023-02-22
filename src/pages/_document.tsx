@@ -18,7 +18,6 @@ export default function Document() {
           name="description"
           content="Juan Navas - Fullstack Web Developer. I've worked with React.js, Node.js, MongoDB, Docker, Git, AWS, PHP, Laravel..."
         />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
         <link rel="canonical" href="https://juannavas.dev"></link>
         {/* <script
