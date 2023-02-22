@@ -1,9 +1,7 @@
 import Head from 'next/head';
-import Image from 'next/image';
-import { Nunito } from '@next/font/google';
-import styles from '@/styles/Home.module.css';
-
-const nunito = Nunito({ subsets: ['latin'] });
+import ProjectsContainer from '@/components/ProjectsContainer';
+import Footer from '@/components/Footer';
+import Header from '@/components/Header';
 
 export default function Home() {
   return (
@@ -11,10 +9,12 @@ export default function Home() {
       <Head>
         <title>Juan Navas</title>
       </Head>
-      <main className={styles.main}>
-        <Image src="/jn.png" alt="JN Logo" width={100} height={100} priority />
-        <h1 className={nunito.className}>Some Projects I&apos;ve worked on</h1>
+
+      <Header />
+      <main>
+        <ProjectsContainer />
       </main>
+      <Footer />
     </>
   );
 }

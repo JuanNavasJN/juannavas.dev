@@ -1,0 +1,10 @@
+.project {
+  border: 1px solid var(--border-color);
+  border-radius: 30px;
+  margin: 15px 0;
+  padding: 15px 20px;
+
+  width: 700px;
+
+  box-shadow: 10px 10px 19px -13px rgba(0, 0, 0, 0.55);
+}
