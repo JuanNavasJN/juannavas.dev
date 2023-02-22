@@ -2,9 +2,22 @@
   border: 1px solid var(--border-color);
   border-radius: 30px;
   margin: 20px 0;
-  padding: 15px 20px;
-
+  padding: 20px;
   width: 700px;
+  display: flex;
 
   box-shadow: 10px 10px 19px -13px rgba(0, 0, 0, 0.55);
+}
+
+.image {
+  width: 250px;
+  height: 180px;
+  background: #9f9f9f;
+  border-radius: 20px;
+  margin-right: 20px;
+}
+
+.linksContainer {
+  display: flex;
+  margin-top: 10px;
 }
