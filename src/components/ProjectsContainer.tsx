@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import Project from './Project';
+import ProjectCard from './ProjectCard';
 
 import styles from '@/styles/ProjectsContainer.module.css';
 
@@ -34,7 +34,7 @@ const ProjectsContainer: FC = () => {
   return (
     <div className={styles.projectsContainer}>
       {projects.map(project => (
-        <Project key={project.id} {...project} />
+        <ProjectCard key={project.id} {...project} />
       ))}
     </div>
   );

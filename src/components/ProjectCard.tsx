@@ -3,18 +3,18 @@ import React from 'react';
 import { Nunito } from '@next/font/google';
 import LinkButton from './LinkButton';
 
-import styles from '@/styles/Project.module.css';
+import styles from '@/styles/ProjectCard.module.css';
 
 const nunito = Nunito({ subsets: ['latin'] });
 
-interface ProjectProps {
+interface ProjectCardProps {
   title: string;
   description: string;
   techStack: string;
   imgPath: string;
 }
 
-const Project: FC<ProjectProps> = ({
+const ProjectCard: FC<ProjectCardProps> = ({
   description,
   imgPath,
   techStack,
@@ -40,4 +40,4 @@ const Project: FC<ProjectProps> = ({
   );
 };
 
-export default Project;
+export default ProjectCard;
