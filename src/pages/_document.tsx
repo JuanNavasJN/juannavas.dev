@@ -16,7 +16,7 @@ export default function Document() {
         ></meta>
         <meta
           name="description"
-          content="Juan Navas - Fullstack Web Developer. I've worked with React.js, Node.js, MongoDB, Docker, Git, AWS, PHP, Laravel..."
+          content="Juan Navas - Fullstack Web Developer. Experience with React.js, Node.js, MongoDB, Docker, Git, AWS, PHP, Laravel..."
         />
         <link rel="icon" href="/favicon.ico" />
         <link rel="canonical" href="https://juannavas.dev"></link>
