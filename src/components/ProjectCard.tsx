@@ -12,13 +12,17 @@ interface ProjectCardProps {
   description: string;
   techStack: string;
   imgPath: string;
+  site?: string;
+  code?: string;
 }
 
 const ProjectCard: FC<ProjectCardProps> = ({
   description,
   imgPath,
   techStack,
-  title
+  title,
+  code,
+  site
 }) => {
   return (
     <div className={styles.project}>
@@ -32,8 +36,8 @@ const ProjectCard: FC<ProjectCardProps> = ({
           <b>Tech Stack:</b> {techStack}
         </p>
         <div className={styles.linksContainer}>
-          <LinkButton text="Site" href="" />
-          <LinkButton text="Code" href="" />
+          {site && <LinkButton text="Site" href={site} />}
+          {code && <LinkButton text="Code" href={code} />}
         </div>
       </div>
     </div>
