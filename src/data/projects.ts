@@ -5,7 +5,7 @@ export const projects = [
     description:
       'Quis magna adipisicing occaecat minim eiusmod adipisicing sit nisi consectetur. Laborum sunt ad irure tempor ea irure in Lorem voluptate nulla non culpa cillum mollit. Commodo eiusmod laboris anim sint enim magna reprehenderit labore nostrud officia.',
     techStack: 'React, Next.js, Redux, Node.js, MongoDB, AWS.',
-    imgPath: '',
+    imgPath: '/images/smartannie.png',
     show: true
   },
   {
@@ -14,7 +14,7 @@ export const projects = [
     description:
       'Quis magna adipisicing occaecat minim eiusmod adipisicing sit nisi consectetur. Laborum sunt ad irure tempor ea irure in Lorem voluptate nulla non culpa cillum mollit. Commodo eiusmod laboris anim sint enim magna reprehenderit labore nostrud officia.',
     techStack: 'React, Next.js, Redux, Node.js, MongoDB, AWS.',
-    imgPath: '',
+    imgPath: '/images/apm.png',
     show: true
   },
   {
@@ -23,7 +23,7 @@ export const projects = [
     description:
       'Quis magna adipisicing occaecat minim eiusmod adipisicing sit nisi consectetur. Laborum sunt ad irure tempor ea irure in Lorem voluptate nulla non culpa cillum mollit. Commodo eiusmod laboris anim sint enim magna reprehenderit labore nostrud officia.',
     techStack: 'React, Next.js, Redux, Node.js, MongoDB, AWS.',
-    imgPath: '',
+    imgPath: '/images/glufcomercios.png',
     show: true
   },
   {
@@ -41,7 +41,7 @@ export const projects = [
     description:
       'Quis magna adipisicing occaecat minim eiusmod adipisicing sit nisi consectetur. Laborum sunt ad irure tempor ea irure in Lorem voluptate nulla non culpa cillum mollit. Commodo eiusmod laboris anim sint enim magna reprehenderit labore nostrud officia.',
     techStack: 'React, Next.js, Redux, Node.js, MongoDB, AWS.',
-    imgPath: '',
+    imgPath: '/images/logicol.png',
     site: 'https://logicol.es/',
     show: true
   },
@@ -51,7 +51,7 @@ export const projects = [
     description:
       'Quis magna adipisicing occaecat minim eiusmod adipisicing sit nisi consectetur. Laborum sunt ad irure tempor ea irure in Lorem voluptate nulla non culpa cillum mollit. Commodo eiusmod laboris anim sint enim magna reprehenderit labore nostrud officia.',
     techStack: 'React, Next.js, Redux, Node.js, MongoDB, AWS.',
-    imgPath: '',
+    imgPath: '/images/admintools.png',
     show: true
   },
   {
@@ -60,7 +60,7 @@ export const projects = [
     description:
       'Quis magna adipisicing occaecat minim eiusmod adipisicing sit nisi consectetur. Laborum sunt ad irure tempor ea irure in Lorem voluptate nulla non culpa cillum mollit. Commodo eiusmod laboris anim sint enim magna reprehenderit labore nostrud officia.',
     techStack: 'React, Next.js, Redux, Node.js, MongoDB, AWS.',
-    imgPath: '',
+    imgPath: '/images/orion.png',
     code: 'https://github.com/orionprotocol/trading-terminal',
     show: true
   },
@@ -70,7 +70,7 @@ export const projects = [
     description:
       'Quis magna adipisicing occaecat minim eiusmod adipisicing sit nisi consectetur. Laborum sunt ad irure tempor ea irure in Lorem voluptate nulla non culpa cillum mollit. Commodo eiusmod laboris anim sint enim magna reprehenderit labore nostrud officia.',
     techStack: 'React, Next.js, Redux, Node.js, MongoDB, AWS.',
-    imgPath: '',
+    imgPath: '/images/akowe.png',
     site: 'https://akowe-landing.vercel.app/',
     show: true
   },
@@ -80,7 +80,7 @@ export const projects = [
     description:
       'Quis magna adipisicing occaecat minim eiusmod adipisicing sit nisi consectetur. Laborum sunt ad irure tempor ea irure in Lorem voluptate nulla non culpa cillum mollit. Commodo eiusmod laboris anim sint enim magna reprehenderit labore nostrud officia.',
     techStack: 'React, Next.js, Redux, Node.js, MongoDB, AWS.',
-    imgPath: '',
+    imgPath: '/images/ctm.png',
     show: true
   }
 ];

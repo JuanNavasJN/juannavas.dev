@@ -2,6 +2,7 @@ import { FC } from 'react';
 import React from 'react';
 import { Nunito } from '@next/font/google';
 import LinkButton from './LinkButton';
+import Image from 'next/image';
 
 import styles from '@/styles/ProjectCard.module.css';
 
@@ -27,12 +28,22 @@ const ProjectCard: FC<ProjectCardProps> = ({
   return (
     <div className={styles.project}>
       <div className={styles.imageContainer}>
-        <div className={styles.image}></div>
+        {imgPath ? (
+          <Image
+            className={styles.image}
+            src={imgPath}
+            alt={title}
+            width={300}
+            height={200}
+          />
+        ) : (
+          <div className={styles.image}></div>
+        )}
       </div>
       <div>
         <h4 className={nunito.className}>{title}</h4>
         <p className={nunito.className}>{description}</p>
-        <p className={nunito.className}>
+        <p className={`${nunito.className} ${styles.techStack}`}>
           <b>Tech Stack:</b> {techStack}
         </p>
         <div className={styles.linksContainer}>

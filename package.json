@@ -2,6 +2,7 @@
   "name": "juannavas.dev",
   "version": "5.0",
   "private": false,
+  "license": "ISC",
   "scripts": {
     "dev": "next dev",
     "build": "next build && next export",
