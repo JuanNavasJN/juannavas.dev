@@ -7,9 +7,9 @@ import styles from '@/styles/ProjectsContainer.module.css';
 const ProjectsContainer: FC = () => {
   return (
     <div className={styles.projectsContainer}>
-      {projects.map(project => (
-        <ProjectCard key={project.id} {...project} />
-      ))}
+      {projects.map(project =>
+        project.show ? <ProjectCard key={project.id} {...project} /> : null
+      )}
     </div>
   );
 };

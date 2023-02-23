@@ -33,7 +33,7 @@ export const projects = [
       'Quis magna adipisicing occaecat minim eiusmod adipisicing sit nisi consectetur. Laborum sunt ad irure tempor ea irure in Lorem voluptate nulla non culpa cillum mollit. Commodo eiusmod laboris anim sint enim magna reprehenderit labore nostrud officia.',
     techStack: 'React, Next.js, Redux, Node.js, MongoDB, AWS.',
     imgPath: '',
-    show: true
+    show: false
   },
   {
     id: 5,
