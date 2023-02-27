@@ -19,14 +19,6 @@ const MyApp = ({ Component, pageProps }) => {
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
         <script
-          data-host="https://microanalytics.io"
-          data-dnt="false"
-          src="https://microanalytics.io/js/script.js"
-          id="ZwSg9rf6GA"
-          async
-          defer
-        ></script>
-        <script
           async
           defer
           data-website-id="54890e73-54f0-48b9-9ff1-9d8b77c2de99"
