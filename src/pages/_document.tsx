@@ -20,14 +20,7 @@ export default function Document() {
         />
         <link rel="icon" href="/favicon.ico" />
         <link rel="canonical" href="https://juannavas.dev"></link>
-        {/* <script
-          data-host="https://microanalytics.io"
-          data-dnt="false"
-          src="https://microanalytics.io/js/script.js"
-          id="ZwSg9rf6GA"
-          async
-          defer
-        ></script>
+        {/* 
         <script
           async
           defer

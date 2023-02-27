@@ -3,6 +3,10 @@
   "version": "5.0",
   "private": false,
   "license": "ISC",
+  "author": {
+    "name": "Juan Navas",
+    "email": "iam@juannavas.dev"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build && next export",
