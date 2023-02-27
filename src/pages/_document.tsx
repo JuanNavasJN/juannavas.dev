@@ -20,13 +20,12 @@ export default function Document() {
         />
         <link rel="icon" href="/favicon.ico" />
         <link rel="canonical" href="https://juannavas.dev"></link>
-        {/* 
         <script
           async
           defer
           data-website-id="54890e73-54f0-48b9-9ff1-9d8b77c2de99"
           src="https://umami.veest.net/umami.js"
-        ></script> */}
+        ></script>
       </Head>
       <body>
         <Main />
