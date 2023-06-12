@@ -1,0 +1,38 @@
+.darkModeSwitchContainer {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+
+  .button {
+    border-radius: 30px;
+    width: 65px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    border: 1px solid var(--text-color);
+    position: relative;
+    cursor: pointer;
+  }
+
+  .switch {
+    width: 30px;
+    height: 30px;
+    background-color: #202429;
+    position: absolute;
+    border-radius: 30px;
+    top: 2px;
+    right: 2px;
+    transition: 0.5s;
+  }
+
+  &.dark {
+    .switch {
+      transform: translateX(-28px);
+    }
+  }
+
+  @media (max-width: 630px) {
+    top: 10px;
+    right: 10px;
+  }
+}
