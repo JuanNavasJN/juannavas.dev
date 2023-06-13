@@ -1,7 +1,9 @@
 import { FC } from 'react';
-import Image from 'next/image';
 import styles from '@/styles/Footer.module.css';
 import { Nunito } from '@next/font/google';
+import Email from '@/svg/Email';
+import LinkedIn from '@/svg/LinkedIn';
+import GitHub from '@/svg/GitHub';
 
 const nunito = Nunito({ subsets: ['latin'] });
 
@@ -11,36 +13,21 @@ const Footer: FC = () => {
     <footer className={styles.footer}>
       <div className={styles.contactLinksContainer}>
         <a href="mailto:iam@juannavas.dev">
-          <Image
-            src="/icons/email.svg"
-            alt="Email icon"
-            width={iconSize}
-            height={iconSize}
-          />
+          <Email width={iconSize} height={iconSize} className="svg" />
         </a>
         <a
           href="https://www.linkedin.com/in/juannavasjn/"
           target="_blank"
           rel="noreferrer"
         >
-          <Image
-            src="/icons/linkedin.svg"
-            alt="LinkedIn icon"
-            width={iconSize}
-            height={iconSize}
-          />
+          <LinkedIn width={iconSize} height={iconSize} className="svg" />
         </a>
         <a
           href="https://github.com/JuanNavasJN"
           target="_blank"
           rel="noreferrer"
         >
-          <Image
-            src="/icons/github.svg"
-            alt="GitHub icon"
-            width={iconSize}
-            height={iconSize}
-          />
+          <GitHub width={iconSize} height={iconSize} className="svg" />
         </a>
       </div>
       <div>
