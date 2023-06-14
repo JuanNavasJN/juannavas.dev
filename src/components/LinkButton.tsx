@@ -1,9 +1,6 @@
 import { FC } from 'react';
 import Image from 'next/image';
 import styles from '@/styles/LinkButton.module.css';
-import { Nunito } from '@next/font/google';
-
-const nunito = Nunito({ subsets: ['latin'] });
 
 interface LinkButtonProps {
   text: string;
@@ -15,7 +12,7 @@ const LinkButton: FC<LinkButtonProps> = ({ text, href }) => {
 
   return (
     <a
-      className={`${styles.button} ${nunito.className}`}
+      className={`${styles.button}`}
       href={href}
       target="_blank"
       rel="noreferrer"

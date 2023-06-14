@@ -1,12 +1,9 @@
 import { FC } from 'react';
 import React from 'react';
-import { Nunito } from '@next/font/google';
 import LinkButton from './LinkButton';
 import Image from 'next/image';
 
 import styles from '@/styles/ProjectCard.module.css';
-
-const nunito = Nunito({ subsets: ['latin'] });
 
 interface ProjectCardProps {
   title: string;
@@ -41,9 +38,9 @@ const ProjectCard: FC<ProjectCardProps> = ({
         )}
       </div>
       <div>
-        <h4 className={nunito.className}>{title}</h4>
-        <p className={nunito.className}>{description}</p>
-        <p className={`${nunito.className} ${styles.techStack}`}>
+        <h4>{title}</h4>
+        <p>{description}</p>
+        <p className={`${styles.techStack}`}>
           <b>Tech Stack:</b> {techStack}
         </p>
         <div className={styles.linksContainer}>

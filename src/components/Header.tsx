@@ -1,10 +1,7 @@
 import { FC } from 'react';
 import Image from 'next/image';
 import styles from '@/styles/Header.module.css';
-import { Nunito } from '@next/font/google';
 import DarkModeSwitch from './DarkModeSwitch';
-
-const nunito = Nunito({ subsets: ['latin'] });
 
 const Header: FC = () => {
   return (
@@ -17,7 +14,7 @@ const Header: FC = () => {
         priority
         className={styles.logo}
       />
-      <h1 className={nunito.className}>Some Projects I&apos;ve worked on</h1>
+      <h1>Some Projects I&apos;ve worked on</h1>
       <DarkModeSwitch />
     </header>
   );

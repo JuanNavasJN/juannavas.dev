@@ -1,11 +1,8 @@
 import { FC } from 'react';
 import styles from '@/styles/Footer.module.css';
-import { Nunito } from '@next/font/google';
 import Email from '@/svg/Email';
 import LinkedIn from '@/svg/LinkedIn';
 import GitHub from '@/svg/GitHub';
-
-const nunito = Nunito({ subsets: ['latin'] });
 
 const Footer: FC = () => {
   const iconSize = 60;
@@ -31,9 +28,7 @@ const Footer: FC = () => {
         </a>
       </div>
       <div>
-        <p className={`${nunito.className}`}>
-          Juan Navas © {new Date().getFullYear()}
-        </p>
+        <p>Juan Navas © {new Date().getFullYear()}</p>
       </div>
     </footer>
   );

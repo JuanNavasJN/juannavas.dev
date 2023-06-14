@@ -28,6 +28,7 @@ body {
 body {
   color: var(--text-color);
   background: var(--background);
+  font-family: 'Nunito';
 }
 
 a {
