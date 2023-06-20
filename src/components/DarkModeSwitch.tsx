@@ -1,6 +1,6 @@
 import React, { FC, useEffect, useState } from 'react';
 import Image from 'next/image';
-import styles from '../styles/DarkModeSwitch.module.css';
+import styles from '@/styles/DarkModeSwitch.module.css';
 
 const DarkModeSwitch: FC = () => {
   const [isDark, setIsDark] = useState(false);

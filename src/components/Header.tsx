@@ -2,8 +2,11 @@ import { FC } from 'react';
 import Image from 'next/image';
 import styles from '@/styles/Header.module.css';
 import DarkModeSwitch from './DarkModeSwitch';
+import LangButton from './LangButton';
+import { useTranslation } from 'react-i18next';
 
 const Header: FC = () => {
+  const { t } = useTranslation();
   return (
     <header className={styles.header}>
       <Image
@@ -14,8 +17,11 @@ const Header: FC = () => {
         priority
         className={styles.logo}
       />
-      <h1>Some Projects I&apos;ve worked on</h1>
-      <DarkModeSwitch />
+      <h1>{t('title')}</h1>
+      <div className={styles.settings}>
+        <LangButton />
+        <DarkModeSwitch />
+      </div>
     </header>
   );
 };
