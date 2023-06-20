@@ -1,0 +1,9 @@
+{
+  "title": "Some Projects I've worked on",
+  "proj-desc-8": "APM Music is a creative music house and production music library. They offer a wide variety of choices for digital access to their music, including their state-of-the-art search, download and project management application. I implemented some UI features of their new redesigned web app.",
+  "proj-desc-4": "A web app to provide server monitoring services. I worked on the implementation of some features like third-party authentication, handling multiple role and permission, a support ticket system and a one-to-one real-time chat.",
+  "proj-desc-3": "A web app that always searches for the best prices on the market, allowing you to carry out arbitrage opportunities without the need for accounts on multiple exchanges. I contributed to the initial rebuilt of the React app for a better performance and integrability.",
+  "proj-desc-1": "A web app to track cryptocurrency exchange transactions by API keys or CSV file. It allows you to see all the data in one dashboard through tables, charts and downloadable reports. I implemented the whole first version of the solution from scratch.",
+  "proj-desc-9": "A simple scheduling web app to make easier the booking appointment process between solo-entrepreneur and customer. I implemented UI features and integrated Stripe for payment subscription.",
+  "proj-desc-7": "A web app to list shops with their contact, location and payment method information, including a map to show their specific locations. I built the whole first version from scratch."
+}

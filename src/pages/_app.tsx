@@ -1,5 +1,6 @@
 import type { AppProps } from 'next/app';
 
+import '@/i18n/config.ts';
 import '@/styles/globals.css';
 import '@fontsource/nunito';
 

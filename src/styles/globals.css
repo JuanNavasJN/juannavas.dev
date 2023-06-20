@@ -4,11 +4,13 @@
   --background: #e9ecf4;
   --text-color: #202429;
   --border-color: #2b4da4;
+  --settings-bg: #e9ecf4;
 }
 
 body.dark {
   --background: #202528;
   --text-color: #ececec;
+  --settings-bg: #d2d2d2;
 }
 
 /* ---------------------------------- */

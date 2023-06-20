@@ -1,0 +1,72 @@
+.langButtonContainer {
+  margin-right: 10px;
+  position: relative;
+}
+
+.langButtonContainer button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 7px 10px;
+  border-radius: 20px;
+  border: 1px solid var(--text-color);
+  background-color: var(--settings-bg);
+  cursor: pointer;
+  width: 80px;
+  color: #202429;
+  font-family: inherit;
+}
+
+.langButtonContainer img {
+  border-radius: 4px;
+}
+
+.langButtonContainer button.openButton {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.langButtonContainer button b {
+  margin-top: 1px;
+}
+
+.langButtonContainer .langOptions {
+  background-color: var(--settings-bg);
+  position: absolute;
+  list-style: none;
+  width: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom-right-radius: 16px;
+  border-bottom-left-radius: 16px;
+  padding-top: 8px;
+  padding-bottom: 6px;
+  display: none;
+  border: 1px solid var(--text-color);
+}
+
+.langButtonContainer .langOptions.openMenu {
+  display: flex;
+}
+
+.langButtonContainer .langOptions li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  width: 56px;
+  color: #202429;
+  font-size: 14px;
+  width: 100%;
+}
+
+.langButtonContainer .langOptions li button {
+  border: none;
+  border-radius: 0;
+  transition: 0.3s;
+}
+
+.langButtonContainer .langOptions li button:hover {
+  background-color: #86868647;
+}
