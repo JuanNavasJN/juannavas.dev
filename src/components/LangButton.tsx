@@ -1,7 +1,6 @@
-import React, { FC, useEffect, useState } from 'react';
+import React, { FC, useCallback, useEffect, useState } from 'react';
 import styles from '@/styles/LangButton.module.css';
 import Image from 'next/image';
-import { useRouter } from 'next/router';
 import { useTranslation } from 'react-i18next';
 
 const langs = ['en', 'es', 'pt', 'fr'];
@@ -9,21 +8,36 @@ const langs = ['en', 'es', 'pt', 'fr'];
 const LangButton: FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [currentLang, setCurrentLang] = useState(langs[0]);
-  const { push, locale } = useRouter();
   const { i18n } = useTranslation();
-
-  useEffect(() => {
-    if (locale) {
-      setCurrentLang(locale);
-      i18n.changeLanguage(locale);
-    }
-  }, [locale, i18n]);
 
   const toggleLangMenu = () => setIsOpen(!isOpen);
 
+  const setLang = useCallback(
+    (lang: string) => {
+      setCurrentLang(lang);
+      i18n.changeLanguage(lang);
+    },
+    [i18n]
+  );
+
+  useEffect(() => {
+    const savedLang = localStorage.getItem('lang');
+
+    if (savedLang) {
+      setLang(savedLang);
+    } else {
+      const userLang = navigator.language.split('-')[0];
+
+      if (langs.includes(userLang)) {
+        setLang(userLang);
+      }
+    }
+  }, [setLang]);
+
   const handleLangClick = (lang: string) => {
-    push('/', '/', { locale: lang });
     setIsOpen(false);
+    setLang(lang);
+    localStorage.setItem('lang', lang);
   };
 
   return (
@@ -56,19 +70,6 @@ const LangButton: FC = () => {
               </button>
             </li>
           ))}
-
-        {/* <li>
-          <button>
-            <b>PT</b>
-            <Image src="/images/pt.png" width={30} height={20} alt="pt-flag" />
-          </button>
-        </li>
-        <li>
-          <button>
-            <b>FR</b>
-            <Image src="/images/fr.png" width={30} height={20} alt="fr-flag" />
-          </button>
-        </li> */}
       </ul>
     </div>
   );
