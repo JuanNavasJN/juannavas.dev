@@ -5,5 +5,6 @@
   "proj-desc-3": "Une application web qui recherche toujours les meilleurs prix sur le marché, vous permettant de réaliser des opportunités d'arbitrage sans avoir besoin de comptes sur plusieurs bourses. J'ai contribué à la reconstruction initiale de l'application React pour une meilleure performance et intégrabilité.",
   "proj-desc-1": "Une application web pour suivre les transactions d'échange de crypto-monnaies par clés API ou fichier CSV. Elle vous permet de voir toutes les données dans un tableau de bord à travers des tableaux, des graphiques et des rapports téléchargeables. J'ai mis en œuvre toute la première version de la solution à partir de zéro.",
   "proj-desc-9": "Une application web de planification simple pour faciliter le processus de prise de rendez-vous entre l'entrepreneur individuel et le client. J'ai implémenté les fonctionnalités de l'interface utilisateur et intégré Stripe pour l'abonnement au paiement.",
-  "proj-desc-7": "Une application web pour répertorier les magasins avec leurs coordonnées, leur emplacement et les informations sur les méthodes de paiement, y compris une carte pour montrer leurs emplacements spécifiques. J'ai créé la première version de A à Z."
+  "proj-desc-7": "Une application web pour répertorier les magasins avec leurs coordonnées, leur emplacement et les informations sur les méthodes de paiement, y compris une carte pour montrer leurs emplacements spécifiques. J'ai créé la première version de A à Z.",
+  "my-projects": "Projets Personnels"
 }

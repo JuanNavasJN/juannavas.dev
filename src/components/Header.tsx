@@ -17,7 +17,7 @@ const Header: FC = () => {
         priority
         className={styles.logo}
       />
-      <h1>{t('title')}</h1>
+      {/* <h1>{t('title')}</h1> */}
       <div className={styles.settings}>
         <LangButton />
         <DarkModeSwitch />
