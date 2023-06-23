@@ -6,5 +6,7 @@
   "proj-desc-1": "Um aplicativo da Web para rastrear transações de câmbio de criptomoedas por chaves de API ou arquivo CSV. Ele permite que você veja todos os dados em um painel por meio de tabelas, gráficos e relatórios para download. Implementei toda a primeira versão da solução do zero.",
   "proj-desc-9": "Um aplicativo da Web de agendamento simples para facilitar o processo de agendamento de compromissos entre um empresário individual e um cliente. Implementei recursos de interface do usuário e integrei o Stripe para assinatura de pagamento.",
   "proj-desc-7": "Um aplicativo da Web para listar lojas com suas informações de contato, localização e método de pagamento, incluindo um mapa para mostrar suas localizações específicas. Criei toda a primeira versão do zero.",
-  "my-projects": "Projetos Pessoais"
+  "my-projects": "Projetos Pessoais",
+  "proj-desc-111": "Aplicativo da Web em que você pode reproduzir várias estações de rádio de todo o mundo.",
+  "proj-desc-222": "Aplicativo da Web para mostrar a taxa de câmbio (junto com um gráfico do TradingView) e calcular a conversão de algumas das moedas mais importantes do mundo."
 }

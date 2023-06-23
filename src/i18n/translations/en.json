@@ -6,5 +6,7 @@
   "proj-desc-1": "A web app to track cryptocurrency exchange transactions by API keys or CSV file. It allows you to see all the data in one dashboard through tables, charts and downloadable reports. I implemented the whole first version of the solution from scratch.",
   "proj-desc-9": "A simple scheduling web app to make easier the booking appointment process between solo-entrepreneur and customer. I implemented UI features and integrated Stripe for payment subscription.",
   "proj-desc-7": "A web app to list shops with their contact, location and payment method information, including a map to show their specific locations. I built the whole first version from scratch.",
-  "my-projects": "Personal Projects"
+  "my-projects": "Personal Projects",
+  "proj-desc-111": "Web application where you can play several radio stations from all over the world.",
+  "proj-desc-222": "Wep application to show exchange rate (along to a TradingView chart) and calculate conversion of some of the most important currencies in the world."
 }

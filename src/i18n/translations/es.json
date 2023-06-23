@@ -6,5 +6,7 @@
   "proj-desc-1": "Una aplicación web para realizar un seguimiento de las transacciones de intercambio de criptomonedas mediante claves API o archivos CSV. Te permite ver todos los datos en un panel de control a través de tablas, gráficos e informes descargables. Implementé toda la primera versión de la solución desde cero.",
   "proj-desc-9": "Una sencilla aplicación web para facilitar el proceso de reserva de citas entre el empresario y el cliente. Implementé características de interfaz de usuario e integré Stripe para la suscripción de pago.",
   "proj-desc-7": "Una aplicación web para listar tiendas con su información de contacto, ubicación y forma de pago, incluyendo un mapa para mostrar sus ubicaciones específicas. Construí toda la primera versión desde cero.",
-  "my-projects": "Proyectos Personales"
+  "my-projects": "Proyectos Personales",
+  "proj-desc-111": "Aplicación web donde puedes reproducir varias emisoras de radio de todo el mundo.",
+  "proj-desc-222": "Aplicación web para mostrar el tipo de cambio (junto con un gráfico de TradingView) y calcular la conversión de algunas de las monedas más importantes del mundo."
 }
