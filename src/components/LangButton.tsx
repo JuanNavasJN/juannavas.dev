@@ -3,7 +3,7 @@ import styles from '@/styles/LangButton.module.css';
 import Image from 'next/image';
 import { useTranslation } from 'react-i18next';
 
-const langs = ['en', 'es', 'pt', 'fr'];
+const langs = ['en', 'es', 'pt'];
 
 const LangButton: FC = () => {
   const [isOpen, setIsOpen] = useState(false);
