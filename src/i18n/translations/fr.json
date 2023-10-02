@@ -1,0 +1,12 @@
+{
+  "title": "Projets sur lesquels j'ai travaillé",
+  "proj-desc-8": "APM Music est une maison de création musicale et une bibliothèque de production musicale. Ils offrent une grande variété de choix pour l'accès numérique à leur musique, y compris leur application de recherche, de téléchargement et de gestion de projet à la pointe de la technologie. J'ai mis en place certaines fonctionnalités de l'interface utilisateur de leur nouvelle application web.",
+  "proj-desc-4": "Une application web pour fournir des services de surveillance de serveur. J'ai travaillé sur l'implémentation de certaines fonctionnalités telles que l'authentification par un tiers, la gestion de rôles et de permissions multiples, un système de tickets d'assistance et un chat en temps réel.",
+  "proj-desc-3": "Une application web qui recherche toujours les meilleurs prix sur le marché, vous permettant de réaliser des opportunités d'arbitrage sans avoir besoin de comptes sur plusieurs bourses. J'ai contribué à la reconstruction initiale de l'application React pour une meilleure performance et intégrabilité.",
+  "proj-desc-1": "Une application web pour suivre les transactions d'échange de crypto-monnaies par clés API ou fichier CSV. Elle vous permet de voir toutes les données dans un tableau de bord à travers des tableaux, des graphiques et des rapports téléchargeables. J'ai mis en œuvre toute la première version de la solution à partir de zéro.",
+  "proj-desc-9": "Une application web de planification simple pour faciliter le processus de prise de rendez-vous entre l'entrepreneur individuel et le client. J'ai implémenté les fonctionnalités de l'interface utilisateur et intégré Stripe pour l'abonnement au paiement.",
+  "proj-desc-7": "Une application web pour répertorier les magasins avec leurs coordonnées, leur emplacement et les informations sur les méthodes de paiement, y compris une carte pour montrer leurs emplacements spécifiques. J'ai créé la première version de A à Z.",
+  "my-projects": "Projets personnels",
+  "proj-desc-111": "Application web où vous pouvez écouter plusieurs stations de radio du monde entier.",
+  "proj-desc-222": "Application web pour afficher le taux de change (avec un graphique TradingView) et calculer la conversion de certaines des devises les plus importantes du monde."
+}

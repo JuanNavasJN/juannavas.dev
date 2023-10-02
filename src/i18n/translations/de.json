@@ -1,0 +1,12 @@
+{
+  "title": "Projekte, an denen ich gearbeitet habe",
+  "proj-desc-8": "APM Music ist ein kreatives Musikhaus und eine Produktionsmusikbibliothek. Sie bieten eine Vielzahl von Möglichkeiten für den digitalen Zugang zu ihrer Musik, einschließlich ihrer hochmodernen Such-, Download- und Projektmanagement-Anwendung. Ich habe einige UI-Funktionen ihrer neu gestalteten Web-App implementiert.",
+  "proj-desc-4": "Eine Webanwendung zur Bereitstellung von Serverüberwachungsdiensten. Ich habe an der Implementierung einiger Funktionen wie der Authentifizierung von Drittanbietern, der Handhabung mehrerer Rollen und Berechtigungen, einem Support-Ticket-System und einem Eins-zu-Eins-Chat in Echtzeit gearbeitet.",
+  "proj-desc-3": "Eine Web-Applikation, die immer nach den besten Preisen auf dem Markt sucht und es Ihnen ermöglicht, Arbitrage-Gelegenheiten wahrzunehmen, ohne dass Sie Konten an mehreren Börsen benötigen. Ich habe zur anfänglichen Überarbeitung der React-App beigetragen, um eine bessere Leistung und Integrierbarkeit zu erreichen.",
+  "proj-desc-1": "Eine Web-App zur Verfolgung von Kryptowährungstransaktionen per API-Schlüssel oder CSV-Datei. Es ermöglicht Ihnen, alle Daten in einem Dashboard durch Tabellen, Diagramme und herunterladbare Berichte zu sehen. Ich habe die gesamte erste Version der Lösung von Grund auf implementiert.",
+  "proj-desc-9": "Eine einfache Web-App zur Terminvereinbarung, um den Buchungsprozess zwischen Einzelunternehmer und Kunde zu vereinfachen. Ich implementierte UI-Funktionen und integrierte Stripe für die Zahlung Abonnement.",
+  "proj-desc-7": "Eine Web-App zur Auflistung von Geschäften mit Kontakt-, Standort- und Zahlungsinformationen, einschließlich einer Karte zur Anzeige der jeweiligen Standorte. Ich habe die gesamte erste Version von Grund auf neu entwickelt.",
+  "my-projects": "Persönliche Projekte",
+  "proj-desc-111": "Webanwendung, mit der Sie verschiedene Radiosender aus der ganzen Welt abspielen können.",
+  "proj-desc-222": "Wep-Anwendung zur Anzeige der Wechselkurse (zusammen mit einem TradingView-Chart) und zur Berechnung der Umrechnung einiger der wichtigsten Währungen der Welt."
+}
