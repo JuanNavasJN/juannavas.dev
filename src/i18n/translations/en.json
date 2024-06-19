@@ -8,5 +8,6 @@
   "proj-desc-7": "A web app to list shops with their contact, location and payment method information, including a map to show their specific locations. I built the whole first version from scratch.",
   "my-projects": "Personal Projects",
   "proj-desc-111": "Web application where you can play several radio stations from all over the world.",
-  "proj-desc-222": "Wep application to show exchange rate (along to a TradingView chart) and calculate conversion of some of the most important currencies in the world."
+  "proj-desc-222": "Wep application to show exchange rate (along to a TradingView chart) and calculate conversion of some of the most important currencies in the world.",
+  "proj-desc-10": "A web app to manage online casino chips (loads and withdrawals). Some features I developed: tables to handle users and chip requests, real-time chat, connection to external APIs, implemented queues to handle high workload, Excel reports..."
 }

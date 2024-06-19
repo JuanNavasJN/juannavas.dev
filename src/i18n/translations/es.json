@@ -8,5 +8,6 @@
   "proj-desc-7": "Una aplicación web para listar tiendas con su información de contacto, ubicación y forma de pago, incluyendo un mapa para mostrar sus ubicaciones específicas. Construí toda la primera versión desde cero.",
   "my-projects": "Proyectos Personales",
   "proj-desc-111": "Aplicación web donde puedes reproducir varias emisoras de radio de todo el mundo.",
-  "proj-desc-222": "Aplicación web para mostrar el tipo de cambio (junto con un gráfico de TradingView) y calcular la conversión de algunas de las monedas más importantes del mundo."
+  "proj-desc-222": "Aplicación web para mostrar el tipo de cambio (junto con un gráfico de TradingView) y calcular la conversión de algunas de las monedas más importantes del mundo.",
+  "proj-desc-10": "Una aplicación web para gestionar fichas de casino online (cargas y retiros). Algunas características que desarrollé: tablas para manejar usuarios y solicitudes de fichas, chat en tiempo real, conexión a APIs externas, colas implementadas para manejar alta carga de trabajo, reportes de Excel...."
 }

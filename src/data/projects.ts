@@ -1,5 +1,15 @@
 export const projects = [
   {
+    id: 10,
+    title: 'Betcoin Token',
+    description:
+      'A web app to manage online casino chips (loads and withdrawals). Some features I developed: tables to handle users and chip requests, real-time chat, connection to external APIs, implemented queues to handle high workload, Excel reports...',
+    techStack:
+      'Next.js, Tailwind CSS, NestJS, MySQL, Redis, Docker, AWS, Socket.io, bull (queues).',
+    imgPath: '/images/betcoin-token.png',
+    show: true
+  },
+  {
     id: 8,
     title: 'APM Music',
     description:

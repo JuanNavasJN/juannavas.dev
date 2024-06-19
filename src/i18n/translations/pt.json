@@ -8,5 +8,6 @@
   "proj-desc-7": "Um aplicativo da Web para listar lojas com suas informações de contato, localização e método de pagamento, incluindo um mapa para mostrar suas localizações específicas. Criei toda a primeira versão do zero.",
   "my-projects": "Projetos Pessoais",
   "proj-desc-111": "Aplicativo da Web em que você pode reproduzir várias estações de rádio de todo o mundo.",
-  "proj-desc-222": "Aplicativo da Web para mostrar a taxa de câmbio (junto com um gráfico do TradingView) e calcular a conversão de algumas das moedas mais importantes do mundo."
+  "proj-desc-222": "Aplicativo da Web para mostrar a taxa de câmbio (junto com um gráfico do TradingView) e calcular a conversão de algumas das moedas mais importantes do mundo.",
+  "proj-desc-10": "Um aplicativo da Web para gerenciar fichas de cassino on-line (cargas e retiros). Alguns recursos que desenvolvi: tabelas para lidar com usuários e solicitações de fichas, chat em tempo real, conexão com APIs externas, filas implementadas para lidar com alta carga de trabalho, relatórios em Excel..."
 }
