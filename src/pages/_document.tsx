@@ -24,7 +24,7 @@ export default function Document() {
           async
           defer
           data-website-id="54890e73-54f0-48b9-9ff1-9d8b77c2de99"
-          src="https://umami.veest.net/umami.js"
+          src="https://analytics.juannavas.dev/umami.js"
         ></script>
       </Head>
       <body>
